@@ -11,6 +11,7 @@ SOURCE_SHA='b63b7613812346f2d1396a3a7f94accd47539e3dadc3ea385ba6474c70ab9897'
 def main():
     p=argparse.ArgumentParser();p.add_argument('destination',type=Path);args=p.parse_args()
     archive=ROOT/'.work/sherpa-native-source-v1.13.8.zip'
+    archive.parent.mkdir(parents=True,exist_ok=True)
     if not archive.exists():urllib.request.urlretrieve('https://codeload.github.com/k2-fsa/sherpa-onnx/zip/refs/tags/v1.13.8',archive)
     if hashlib.sha256(archive.read_bytes()).hexdigest()!=SOURCE_SHA:raise ValueError('Pinned source mismatch')
     source=args.destination/'sherpa-onnx-1.13.8'

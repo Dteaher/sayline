@@ -1,6 +1,6 @@
 test,result,scope
 jvm,PASS,112 tests
-python,PASS,29 tests
+python,PASS,30 tests
 phone_pipeline,PASS,4 targeted tests
 threads_returning,PASS,17.23 percent faster identical export
 threads_actors,PASS,8.34 percent faster identical export

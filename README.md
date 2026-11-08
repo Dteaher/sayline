@@ -15,6 +15,7 @@ Sayline — Android-приложение для записи и расшифро
 | Ограничения | [Ограничения](docs/LIMITATIONS.md) |
 | Собственные тесты | [Результаты](docs/TEST_RESULTS.md) |
 | Видеодемонстрация | [Демо](artifacts/demo/README.md) |
+| Презентация — будет добавлена до 13:30 | [Материалы защиты](artifacts/presentation/README.md) |
 | Лицензии моделей и библиотек | [Лицензии](src/mobile/MODEL_LICENSES.md) |
 
 ## Получение проекта

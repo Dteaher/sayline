@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.TranscriptTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-08T05:08:37.108Z" hostname="MSI" time="0.036">
+  <properties/>
+  <testcase name="resamplingPreservesDurationAndConstantSignal" classname="ru.neuroscribe.TranscriptTest" time="0.012"/>
+  <testcase name="downsamplingFiltersOutFrequenciesAboveNyquist" classname="ru.neuroscribe.TranscriptTest" time="0.01"/>
+  <testcase name="silenceProducesNoManufacturedTurns" classname="ru.neuroscribe.TranscriptTest" time="0.0"/>
+  <testcase name="invalidIntervalsAreRejectedAndModelIntervalsClippedToAudio" classname="ru.neuroscribe.TranscriptTest" time="0.0"/>
+  <testcase name="downmixDoesNotDoubleTheAmplitude" classname="ru.neuroscribe.TranscriptTest" time="0.0"/>
+  <testcase name="exportUsesRealStartAndSpeakerLabels" classname="ru.neuroscribe.TranscriptTest" time="0.011"/>
+  <testcase name="overlappingLongTurnDoesNotMoveEarlyReplyToTheEnd" classname="ru.neuroscribe.TranscriptTest" time="0.001"/>
+  <testcase name="returningSpeakerKeepsItsClusterAndChronology" classname="ru.neuroscribe.TranscriptTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

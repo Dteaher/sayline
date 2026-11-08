@@ -1,0 +1,138 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ab0b86e ru.neuroscribe/.MainActivity filter 8843b0f
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        6e5e79c ru.neuroscribe/androidx.profileinstaller.ProfileInstallReceiver filter 4d3792b
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        6e5e79c ru.neuroscribe/androidx.profileinstaller.ProfileInstallReceiver filter b1d55a5
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        6e5e79c ru.neuroscribe/androidx.profileinstaller.ProfileInstallReceiver filter e33ed7a
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        6e5e79c ru.neuroscribe/androidx.profileinstaller.ProfileInstallReceiver filter f37e188
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Domain verification status:
+
+Permissions:
+  Permission [ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (d97ffd2):
+    sourcePackage=ru.neuroscribe
+    uid=10150 gids=[] type=0 prot=signature
+    perm=PermissionInfo{81618a3 ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  ru.neuroscribe/androidx.startup.InitializationProvider:
+    Provider{dfc57a0 ru.neuroscribe/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [ru.neuroscribe.androidx-startup]:
+    Provider{dfc57a0 ru.neuroscribe/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ce43f59 ru.neuroscribe}
+
+Key Set Manager:
+  [ru.neuroscribe]
+      Signing KeySets: 21
+
+Packages:
+  Package [ru.neuroscribe] (963487a):
+    appId=10150
+    pkg=Package{52471e ru.neuroscribe}
+    codePath=/data/app/~~sW8YvFhWPnfiW4RX9SuMgQ==/ru.neuroscribe-M7ZnvPWc_iLxxM5Kdwg8Yw==
+    resourcePath=/data/app/~~sW8YvFhWPnfiW4RX9SuMgQ==/ru.neuroscribe-M7ZnvPWc_iLxxM5Kdwg8Yw==
+    legacyNativeLibraryDir=/data/app/~~sW8YvFhWPnfiW4RX9SuMgQ==/ru.neuroscribe-M7ZnvPWc_iLxxM5Kdwg8Yw==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=5 minSdk=26 targetSdk=36
+    minExtensionVersions=[]
+    versionName=0.5.0
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2026-11-08 00:50:20
+    lastUpdateTime=2026-11-08 00:50:20
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{3e79bff version:2, signatures:[c8279f5], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+    install permissions:
+      ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=352276 deDataInode=65547 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/ru.neuroscribe
+      firstInstallTime=2026-11-07 17:55:47
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-2S1f.frro
+        /data/resource-cache/com.android.systemui-accent-pljK.frro
+        /data/resource-cache/com.android.systemui-dynamic-8KuO.frro
+      runtime permissions:
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    ru.neuroscribe:
+      ru.neuroscribe.test
+    ru.neuroscribe.test:
+      ru.neuroscribe
+  queries via component:
+    com.android.settings.intelligence:
+      ru.neuroscribe
+  queryable via interaction:
+    User 0:
+      [com.android.providers.settings,com.android.dynsystem,com.android.server.telecom,com.android.localtransport,com.android.emulator.multidisplay,com.android.keychain,android,com.android.settings,com.android.location.fused,com.android.DeviceAsWebcam,com.android.inputdevices]:
+        ru.neuroscribe
+      com.android.inputmethod.latin:
+        ru.neuroscribe
+      ru.neuroscribe:
+        [com.android.providers.media,com.android.providers.downloads,com.android.soundpicker,com.android.providers.downloads.ui,com.android.mtp]
+  queryable via uses-library:
+
+Dexopt state:
+  [ru.neuroscribe]
+    path: /data/app/~~sW8YvFhWPnfiW4RX9SuMgQ==/ru.neuroscribe-M7ZnvPWc_iLxxM5Kdwg8Yw==/base.apk
+      x86_64: [status=run-from-apk] [reason=unknown] [primary-abi]
+        [location is error]
+
+Compiler stats:
+  [ru.neuroscribe]
+    (No recorded stats)

@@ -1,0 +1,264 @@
+{
+  "environment": "Windows x64 CPU, sherpa-onnx 1.13.8",
+  "threads": 2,
+  "scope": "Host paired evaluation; word metric lowercases and folds yo; punctuation metric tokenizes punctuation separately; no numeric equivalence normalization",
+  "models": {
+    "zipformer_current": {
+      "load_seconds": 1.1618932000001223,
+      "cases": {
+        "human_fleurs_constructed_aba": {
+          "id": "human_fleurs_constructed_aba",
+          "path": "C:\\Users\\irki_\\OneDrive\\Документы\\ChatGPT\\NEOROSCHRIBE\\.work\\speech-quality-research\\human_fleurs_returning_aba_pcm16.wav",
+          "reference": "В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире! Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Оцелоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу. В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире!",
+          "provenance": {
+            "dataset": "google/fleurs",
+            "config": "ru_ru",
+            "split": "validation",
+            "license": "CC-BY-4.0",
+            "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+            "source_rows": [
+              2,
+              0,
+              2
+            ],
+            "modifications": "Original human float32 WAVs converted to PCM16, concatenated A-B-A with one second inserted silence. A is the exact same recording repeated; this is a constructed returning-speaker fixture, not a natural conversation.",
+            "sha256": "a6aea413fd299fd538bd766da6af80fdb6475e29aeed1cf5ebb7ae498622bc6f"
+          },
+          "pipeline": true,
+          "expected_speakers": 2,
+          "expected_source_windows": [
+            {
+              "start": 0.0,
+              "end": 11.82,
+              "source_row": 2,
+              "expected_anonymous_speaker": 0
+            },
+            {
+              "start": 12.82,
+              "end": 26.5,
+              "source_row": 0,
+              "expected_anonymous_speaker": 1
+            },
+            {
+              "start": 27.5,
+              "end": 39.32,
+              "source_row": 2,
+              "expected_anonymous_speaker": 0
+            }
+          ],
+          "audio_seconds": 39.32,
+          "asr_seconds": 0.7185562000004211,
+          "asr_rtf": 0.018274572736531564,
+          "diarization_seconds": 7.093268000000535,
+          "transcript": "в японии приблизительно семь тысяч островов самый большой из которых что делает японию седьмым по величине островом в мире они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться силоты выслеживают добычу сливаясь с окружающей обстановкой а затем набрасываются на добычу в японии приблизительно семь тысяч островов самый большой из которых что делает японию седьмым по величине островом в мире",
+          "word_error": {
+            "errors": 11,
+            "reference_tokens": 66,
+            "rate": 0.16666666666666666
+          },
+          "punctuation_sensitive_token_error": {
+            "errors": 27,
+            "reference_tokens": 82,
+            "rate": 0.32926829268292684
+          },
+          "replicas": [
+            {
+              "start": 1.4147188663482666,
+              "end": 4.384718894958496,
+              "speaker": 0,
+              "text": "в японии приблизительно семь тысяч островов"
+            },
+            {
+              "start": 4.992218971252441,
+              "end": 6.797843933105469,
+              "speaker": 0,
+              "text": "самый большой из которых"
+            },
+            {
+              "start": 7.219718933105469,
+              "end": 10.54409408569336,
+              "speaker": 0,
+              "text": "что делает японию седьмым по величине островом в мире"
+            },
+            {
+              "start": 13.362218856811523,
+              "end": 19.13347053527832,
+              "speaker": 2,
+              "text": "они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться"
+            },
+            {
+              "start": 19.65659523010254,
+              "end": 25.51222038269043,
+              "speaker": 2,
+              "text": "силоты выслеживают добычу сливаясь с окружающей обстановкой а затем набрасываются на добычу"
+            },
+            {
+              "start": 28.870346069335938,
+              "end": 31.874095916748047,
+              "speaker": 0,
+              "text": "в японии приблизительно семь тысяч островов"
+            },
+            {
+              "start": 32.48159408569336,
+              "end": 34.2872200012207,
+              "speaker": 0,
+              "text": "самый большой из которых"
+            },
+            {
+              "start": 34.69221878051758,
+              "end": 38.05034255981445,
+              "speaker": 0,
+              "text": "что делает японию седьмым по величине островом в мире"
+            }
+          ],
+          "word_error_number_equivalent": {
+            "errors": 3,
+            "reference_tokens": 66,
+            "rate": 0.045454545454545456
+          },
+          "punctuation_token_error_number_equivalent": {
+            "errors": 17,
+            "reference_tokens": 80,
+            "rate": 0.2125
+          },
+          "dominant_speaker_ids_by_source_window": [
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    },
+    "gigaam_v3_punct_ctc": {
+      "load_seconds": 1.0709744999994655,
+      "cases": {
+        "human_fleurs_constructed_aba": {
+          "id": "human_fleurs_constructed_aba",
+          "path": "C:\\Users\\irki_\\OneDrive\\Документы\\ChatGPT\\NEOROSCHRIBE\\.work\\speech-quality-research\\human_fleurs_returning_aba_pcm16.wav",
+          "reference": "В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире! Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Оцелоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу. В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире!",
+          "provenance": {
+            "dataset": "google/fleurs",
+            "config": "ru_ru",
+            "split": "validation",
+            "license": "CC-BY-4.0",
+            "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+            "source_rows": [
+              2,
+              0,
+              2
+            ],
+            "modifications": "Original human float32 WAVs converted to PCM16, concatenated A-B-A with one second inserted silence. A is the exact same recording repeated; this is a constructed returning-speaker fixture, not a natural conversation.",
+            "sha256": "a6aea413fd299fd538bd766da6af80fdb6475e29aeed1cf5ebb7ae498622bc6f"
+          },
+          "pipeline": true,
+          "expected_speakers": 2,
+          "expected_source_windows": [
+            {
+              "start": 0.0,
+              "end": 11.82,
+              "source_row": 2,
+              "expected_anonymous_speaker": 0
+            },
+            {
+              "start": 12.82,
+              "end": 26.5,
+              "source_row": 0,
+              "expected_anonymous_speaker": 1
+            },
+            {
+              "start": 27.5,
+              "end": 39.32,
+              "source_row": 2,
+              "expected_anonymous_speaker": 0
+            }
+          ],
+          "audio_seconds": 39.32,
+          "asr_seconds": 2.049497599999995,
+          "asr_rtf": 0.0521235401831128,
+          "diarization_seconds": 7.093268000000535,
+          "transcript": "В Японии приблизительно 7 000 островов Самый большой из которых — Хонтю Что делает Японию седьмым по величине островом в мире? Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться Цилоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу В Японии приблизительно 7 000 островов. Самый большой из которых — Хонтюк Что делает Японию седьмым по величине островом в мире?",
+          "word_error": {
+            "errors": 11,
+            "reference_tokens": 66,
+            "rate": 0.16666666666666666
+          },
+          "punctuation_sensitive_token_error": {
+            "errors": 23,
+            "reference_tokens": 82,
+            "rate": 0.2804878048780488
+          },
+          "replicas": [
+            {
+              "start": 1.4147188663482666,
+              "end": 4.384718894958496,
+              "speaker": 0,
+              "text": "В Японии приблизительно 7 000 островов"
+            },
+            {
+              "start": 4.992218971252441,
+              "end": 6.797843933105469,
+              "speaker": 0,
+              "text": "Самый большой из которых — Хонтю"
+            },
+            {
+              "start": 7.219718933105469,
+              "end": 10.54409408569336,
+              "speaker": 0,
+              "text": "Что делает Японию седьмым по величине островом в мире?"
+            },
+            {
+              "start": 13.362218856811523,
+              "end": 19.13347053527832,
+              "speaker": 2,
+              "text": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться"
+            },
+            {
+              "start": 19.65659523010254,
+              "end": 25.51222038269043,
+              "speaker": 2,
+              "text": "Цилоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу"
+            },
+            {
+              "start": 28.870346069335938,
+              "end": 31.874095916748047,
+              "speaker": 0,
+              "text": "В Японии приблизительно 7 000 островов."
+            },
+            {
+              "start": 32.48159408569336,
+              "end": 34.2872200012207,
+              "speaker": 0,
+              "text": "Самый большой из которых — Хонтюк"
+            },
+            {
+              "start": 34.69221878051758,
+              "end": 38.05034255981445,
+              "speaker": 0,
+              "text": "Что делает Японию седьмым по величине островом в мире?"
+            }
+          ],
+          "word_error_number_equivalent": {
+            "errors": 3,
+            "reference_tokens": 66,
+            "rate": 0.045454545454545456
+          },
+          "punctuation_token_error_number_equivalent": {
+            "errors": 13,
+            "reference_tokens": 80,
+            "rate": 0.1625
+          },
+          "dominant_speaker_ids_by_source_window": [
+            0,
+            2,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "numeric_equivalence": {
+    "7000": "семь тысяч",
+    "7 000": "семь тысяч",
+    "7-м": "седьмым"
+  }
+}

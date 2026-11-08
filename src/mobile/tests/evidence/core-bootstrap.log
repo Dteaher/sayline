@@ -1,0 +1,5 @@
+segmentation.tar.bz2 6958444 24615ee884c897d9d2ba09bb4d30da6bb1b15e685065962db5b02e76e4996488
+speaker.onnx 26534365 5ef208a9da1453335308a6b6f4e6dfbd7e183a38b604de0a57664f45d257fe94
+sherpa-onnx-1.13.8.aar 50129134 633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96
+gigaam-v3-punct-ctc.tar.bz2 163282594 20e41e160efa6f2460a7ef6554cdbbb9e8fffb2b92e6bc708e9406bd8b9256ea
+ASR files ['gigaam-v3.int8.onnx', 'manifest.json', 'segmentation.onnx', 'speaker.onnx', 'tokens.txt']

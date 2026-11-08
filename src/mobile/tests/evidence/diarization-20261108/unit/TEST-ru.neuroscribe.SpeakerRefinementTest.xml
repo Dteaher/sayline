@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.SpeakerRefinementTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-07T22:48:44.419Z" hostname="MSI" time="0.006">
+  <properties/>
+  <testcase name="confidentBriefReplyCanCorrectAnIncorrectNativeGroup" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.002"/>
+  <testcase name="missingMixedEmbeddingsCannotCollapseTwoSimultaneousNativeVoices" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.002"/>
+  <testcase name="invalidVectorCannotSilentlyProduceACluster" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.001"/>
+  <testcase name="unavailableEmbeddingsPreserveNativeEvidence" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.0"/>
+  <testcase name="isolatedBriefNativeVoiceSurvivesAsProvisionalParticipant" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.0"/>
+  <testcase name="briefNoisyTailCannotSeedAGhostParticipant" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.001"/>
+  <testcase name="newUtteranceFromSameVoiceReturnsToItsCluster" classname="ru.neuroscribe.SpeakerRefinementTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

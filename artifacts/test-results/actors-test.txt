@@ -1,0 +1,23 @@
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.PhonePerformanceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+ru.neuroscribe.PhonePerformanceTest:
+INSTRUMENTATION_STATUS: test=compareThreadBudgetsWithoutChangingWordsOrSpeakers
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.PhonePerformanceTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=compareThreadBudgetsWithoutChangingWordsOrSpeakers
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 132,312
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1

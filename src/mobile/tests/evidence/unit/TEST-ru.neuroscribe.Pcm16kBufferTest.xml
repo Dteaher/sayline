@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.Pcm16kBufferTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-07T18:02:38.586Z" hostname="MSI" time="0.022">
+  <properties/>
+  <testcase name="fractionalRateKeepsTheSignalContinuousAcrossSmallPcmBuffers" classname="ru.neuroscribe.Pcm16kBufferTest" time="0.011"/>
+  <testcase name="lowerRateUpsamplingKeepsDurationAndConstantAmplitude" classname="ru.neuroscribe.Pcm16kBufferTest" time="0.005"/>
+  <testcase name="maximumRateDoesNotChangeSilenceOrItsDuration" classname="ru.neuroscribe.Pcm16kBufferTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

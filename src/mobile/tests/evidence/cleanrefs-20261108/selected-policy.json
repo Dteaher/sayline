@@ -1,0 +1,20 @@
+{
+  "locked_before_holdout": true,
+  "locked_at_utc": "2026-11-08T00:26:35.230863+00:00",
+  "native_threshold": 0.7,
+  "grouping_gap": 1.2,
+  "use_clean_references": true,
+  "min_duration_on": 0.15,
+  "min_duration_off": 0.4,
+  "refinement_threshold": 0.6,
+  "reference_method": "longest clean contiguous portion, <=10s; exact Kotlin integer sample bounds",
+  "rejected": "grouping_gap .4/0: better development timing score but .4 degraded fixed Russian named entities. Keep1.2 ASR context.",
+  "preflight": "Four existing fixed Russian Android fixtures preserve normalized words and voice count at .7/gap1.2.",
+  "holdout": "New AMI IS1009a/TS3003a/EN2002a and fixed12 FLEURS recordings20\u201331 not yet inferred. Russian data is read speech, with known sentence overlap disclosed.",
+  "source_sha256": {
+    "app/src/main/java/ru/neuroscribe/core/CleanReferences.kt": "b81b080e005e7ac3c6e23de0a4f95594270587a5465d611bfa608cc922cbf355",
+    "app/src/main/java/ru/neuroscribe/core/SpeakerRefinement.kt": "b9517a0c688cb0dd618ede43f4fd742706d62e71ab5b8fd7ca393378b462f791",
+    "app/src/main/java/ru/neuroscribe/ml/SpeechEngine.kt": "11a393282c8220aa7cfd3e527ffb54dba4881ce94522f0d08c25e54d254eed26"
+  },
+  "validation_decision": "REJECTED: IS1009a DER worsened22.82%\u219239.38%; overall JER46.79%\u219251.71%. Candidate never promoted to production."
+}

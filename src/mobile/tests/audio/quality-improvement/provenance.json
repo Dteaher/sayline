@@ -1,0 +1,113 @@
+{
+  "source": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations",
+  "license": "Dialogs OpenRAIL, LICENSE-Dialogs.md",
+  "selection": "first three test.csv rows per actor D,M,S before inference; first D download failed, retained failure, no replacement",
+  "limits": "Actors performing scripted utterances, composed exchanges with new returning utterances. NOT spontaneous meetings. No human speech/overlap timestamp annotations. No DER.",
+  "rows": [
+    {
+      "audio_path": "wavs/masha_dima_part1_43.wav",
+      "speaker_id": "D",
+      "text": "Это точно. А ты знала, что один учёный случайно открыл очень важное лекарство, просто не убрав за собой? Ха-ха-ха!",
+      "emotion": "laughing",
+      "emotion_on_russian": "смех",
+      "accent_text": "+Это т+очно. +А т+ы зн+ала, чт+о од+ин уч+ёный случ+айно откр+ыл +очень в+ажное лек+арство, пр+осто н+е убр+ав з+а соб+ой? Х+а-х+а-х+а!",
+      "duration": "9.707916666666666"
+    },
+    {
+      "audio_path": "wavs/masha_dima_part1_53.wav",
+      "speaker_id": "D",
+      "text": "Ха-ха-ха, звучит интригующе! Может, как-нибудь угостишь?",
+      "emotion": "laughing",
+      "emotion_on_russian": "смех",
+      "accent_text": "Х+а-х+а-х+а, звуч+ит интриг+ующе! М+ожет, к+ак-ниб+удь угост+ишь?",
+      "duration": "6.29",
+      "file": ".work\\quality-research\\dialogs-1.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_dima_part1_53.wav",
+      "sha256": "23dce6c926c1db3756ad6db2db2af0860ecb5149ce0f271a1099947d55028c48"
+    },
+    {
+      "audio_path": "wavs/masha_dima_part1_71.wav",
+      "speaker_id": "D",
+      "text": "Это действительно печально, Маша. Такие места всегда хранят частичку души и много воспоминаний. Мне жаль.",
+      "emotion": "sad",
+      "emotion_on_russian": "грусть",
+      "accent_text": "+Это действ+ительно печ+ально, М+аша. Так+ие мест+а всегд+а хран+ят част+ичку душ+и +и мн+ого воспомин+аний. Мн+е ж+аль.",
+      "duration": "9.381166666666669",
+      "file": ".work\\quality-research\\dialogs-2.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_dima_part1_71.wav",
+      "sha256": "e6a5ab17beb51162a10eeb15fbea9928b11d3431ba179ac1fc53d5b668a2be84"
+    },
+    {
+      "audio_path": "wavs/masha_dima_part1_122.wav",
+      "speaker_id": "M",
+      "text": "Да, и это выводит из себя. Как будто мы не заслуживаем нормальных условий. Я уже задумываюсь о том, чтобы искать новое место работы. Надоело терпеть такое отношение.",
+      "emotion": "angry",
+      "emotion_on_russian": "злость",
+      "accent_text": "Д+а, +и +это выв+одит +из себ+я. К+ак б+удто м+ы н+е засл+уживаем норм+альных усл+овий. +Я уж+е зад+умываюсь +о т+ом, чт+обы иск+ать н+овое м+есто раб+оты. Надо+ело терп+еть так+ое отнош+ение.",
+      "duration": "11.740229166666667",
+      "file": ".work\\quality-research\\dialogs-3.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_dima_part1_122.wav",
+      "sha256": "ce234a7242c128f211276b12ad5f675542e32a89a92822d4887c46f7efd14917"
+    },
+    {
+      "audio_path": "wavs/masha_dima_part1_166.wav",
+      "speaker_id": "M",
+      "text": "И точно. Теперь у нас не только потеря одного из лучших сотрудников, но и утрата для команды. Надеюсь, руководство поймёт, что важно не только достигать целей, но и сохранять ценных сотрудников.",
+      "emotion": "disgust",
+      "emotion_on_russian": "отвращение",
+      "accent_text": "+И т+очно. Теп+ерь +у н+ас н+е т+олько пот+еря одног+о +из л+учших сотр+удников, н+о +и утр+ата дл+я ком+анды. Над+еюсь, руков+одство пойм+ёт, чт+о в+ажно н+е т+олько достиг+ать ц+елей, н+о +и сохран+ять ц+енных сотр+удников.",
+      "duration": "12.967229166666666",
+      "file": ".work\\quality-research\\dialogs-4.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_dima_part1_166.wav",
+      "sha256": "414cc69ea47fb17922ed47b20c4396f85113e65d8055cd539ec9ba970d544569"
+    },
+    {
+      "audio_path": "wavs/masha_dima_part4_118.wav",
+      "speaker_id": "M",
+      "text": "Да уж, не самое приятное приключение. А как вы решили эту проблему?",
+      "emotion": "neutral",
+      "emotion_on_russian": "нейтрально",
+      "accent_text": "Д+а +уж, н+е с+амое при+ятное приключ+ение. +А к+ак в+ы реш+или +эту пробл+ему?",
+      "duration": "4.794512471655329",
+      "file": ".work\\quality-research\\dialogs-5.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_dima_part4_118.wav",
+      "sha256": "ad55d7166a36ff4e61369c186a78b14dcb3af27dad4492c8950347077b4a06d9"
+    },
+    {
+      "audio_path": "wavs/masha_sveta_part1_43.wav",
+      "speaker_id": "S",
+      "text": "Ужас какой! Тяжело, наверное, работать в таких условиях.",
+      "emotion": "sad",
+      "emotion_on_russian": "грусть",
+      "accent_text": "+Ужас как+ой! Тяжел+о, нав+ерное, раб+отать в так+их усл+овиях.",
+      "duration": "3.636958333333333",
+      "file": ".work\\quality-research\\dialogs-6.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_sveta_part1_43.wav",
+      "sha256": "1bf9afd203e814bd07e453d8bc09d3e17fb70744f3a87a2ed0245084a85dc37f"
+    },
+    {
+      "audio_path": "wavs/masha_sveta_part1_91.wav",
+      "speaker_id": "S",
+      "text": "И актёры подобраны идеально. Генри Кавилл в роли Геральта просто великолепен!",
+      "emotion": "sgorogovrki",
+      "emotion_on_russian": "сгороговрки",
+      "accent_text": "+И акт+ёры под+обраны иде+ально. Г+енри Кав+илл в р+оли Гер+альта пр+осто великол+епен!",
+      "duration": "6.397708333333333",
+      "file": ".work\\quality-research\\dialogs-7.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_sveta_part1_91.wav",
+      "sha256": "459858aea83f158f5664f486bc7ad22a3bdbdf2f7b5a2bacb1a66a5f1e1af431"
+    },
+    {
+      "audio_path": "wavs/masha_sveta_part1_257.wav",
+      "speaker_id": "S",
+      "text": "Просто иногда так важно иметь кого-то, с кем можно поделиться всем этим.",
+      "emotion": "sad",
+      "emotion_on_russian": "грусть",
+      "accent_text": "Пр+осто иногд+а т+ак в+ажно им+еть ког+о-т+о, с к+ем м+ожно подел+иться вс+ем +этим.",
+      "duration": "5.421375",
+      "file": ".work\\quality-research\\dialogs-8.wav",
+      "url": "https://huggingface.co/datasets/langswap/dialogs-ru-emotional-conversations/resolve/main/wavs/masha_sveta_part1_257.wav",
+      "sha256": "69e7b24b485c81cf3a3e7a3984c6ba3558ee4108e328c24f673c9480e5d10b78"
+    }
+  ]
+}

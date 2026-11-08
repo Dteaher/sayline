@@ -1,0 +1,12 @@
+test_additional_manifest_declared_model_is_verified (test_artifact_verifier.ArtifactVerifierTest.test_additional_manifest_declared_model_is_verified) ... ok
+test_complete_package_preserves_json_report (test_artifact_verifier.ArtifactVerifierTest.test_complete_package_preserves_json_report) ... ok
+test_empty_manifest_cannot_pass_packaging_gate (test_artifact_verifier.ArtifactVerifierTest.test_empty_manifest_cannot_pass_packaging_gate) ... ok
+test_every_abi_requires_both_jni_and_onnx_runtime (test_artifact_verifier.ArtifactVerifierTest.test_every_abi_requires_both_jni_and_onnx_runtime) ... ok
+test_every_base_model_is_required_even_if_both_manifests_omit_it (test_artifact_verifier.ArtifactVerifierTest.test_every_base_model_is_required_even_if_both_manifests_omit_it) ... ok
+test_model_declared_only_in_source_cannot_be_omitted_from_apk (test_artifact_verifier.ArtifactVerifierTest.test_model_declared_only_in_source_cannot_be_omitted_from_apk) ... ok
+test_source_and_apk_manifests_must_match (test_artifact_verifier.ArtifactVerifierTest.test_source_and_apk_manifests_must_match) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.386s
+
+OK

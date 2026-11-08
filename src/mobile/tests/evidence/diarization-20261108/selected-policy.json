@@ -1,0 +1,22 @@
+{
+  "selected_before_holdout": true,
+  "selected_at_utc": "2026-11-07T22:44:11.173527+00:00",
+  "min_duration_on": 0.15,
+  "min_duration_off": 0.4,
+  "refinement_threshold": 0.6,
+  "preserve_overlap_guard": false,
+  "global_short_assignment": false,
+  "max_reference_samples": 256,
+  "max_embedding_audio_seconds": 600,
+  "rejected": [
+    "0.05 s: more ghost voices",
+    "overlap guard: worsened development DER/JER",
+    "global short assignment: no measured aggregate improvement"
+  ],
+  "gate": "Fixed Russian Android fixtures preserve token text and speaker count; sealed speaker-disjoint AMI holdout evaluated next. No retuning on holdout.",
+  "source_hashes": {
+    "app/src/main/java/ru/neuroscribe/core/AverageLinkage.kt": "f3f20cd32e11e552fd6bc941e6a74d085d24c060a59b0155f2e2df65bc046906",
+    "app/src/main/java/ru/neuroscribe/core/SpeakerRefinement.kt": "8e3559ab3af2bf5b6038243d90e5e8b876efffd38bf4308606847ea5438efcc6",
+    "app/src/main/java/ru/neuroscribe/core/RefinementSampling.kt": "3f234f1c10027dc04a9d52427b9e0ca9a3abb29810595b370ceed9b9a93f8c27"
+  }
+}

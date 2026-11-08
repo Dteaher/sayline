@@ -1,0 +1,10 @@
+{
+  "device": "2311DRK48G",
+  "sdk": 35,
+  "abi": "arm64-v8a",
+  "audio_seconds": 39.31999969482422,
+  "processing_ms": 24221,
+  "rtf": 0.6159969528989662,
+  "dominant_speakers": "0,1,0",
+  "fixture": "FLEURS concatenated read speech, CC-BY-4.0; not a natural conversation"
+}

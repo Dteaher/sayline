@@ -1,0 +1,26 @@
+{
+  "sherpa_onnx": "1.13.8",
+  "environment": "host CPU; not an Android test",
+  "purpose": "native safety; synthetic voices; not accuracy evidence",
+  "audio_seconds": 15.355,
+  "wall_seconds": 1.7534715999991022,
+  "input_float32_sha256": "bf7e428ce20ce96daed339cbea79e95de27ef786207dddf9057ab20c62accfe0",
+  "source_fixtures": [
+    {
+      "file": "tests\\audio\\a1.wav",
+      "sha256": "da71c12c47bb8a475dfe35516dd4da96e2d5d24967639d928a30859ce571fffe"
+    },
+    {
+      "file": "tests\\audio\\b1.wav",
+      "sha256": "745a265e88177c5f02b2d8fb462b7537aca2802d890d409fda1e81a4dfe34ec1"
+    }
+  ],
+  "turns": [
+    {
+      "start": 0.03096874989569187,
+      "end": 12.704093933105469,
+      "speaker": 0
+    }
+  ],
+  "passed": true
+}

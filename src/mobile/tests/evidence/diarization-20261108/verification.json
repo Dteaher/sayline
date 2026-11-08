@@ -1,0 +1,20 @@
+{
+  "version": "0.4.0",
+  "jvm_tests": 76,
+  "jvm_failures": 0,
+  "android_regular_passed": 35,
+  "android_regular_skipped": 0,
+  "android_seconds": 176.396,
+  "python_tests": 19,
+  "lint_errors": 0,
+  "lint_dependency_warnings": 9,
+  "metrics_der_crosscheck_cases": 280,
+  "metrics_jer_crosscheck_cases": 70,
+  "physical_arm": "NOT RUN",
+  "natural_russian_der": "NOT RUN",
+  "production_overlap_separation": "NOT IMPLEMENTED",
+  "long_audio_current_build": "PASS; Android x86_64, repeated TTS, 1200s background/screen-off",
+  "long_audio_elapsed_ms": 315860,
+  "processing_service_stopped_after_test": true,
+  "processing_wake_lock_released_after_test": true
+}

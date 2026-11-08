@@ -1,0 +1,24 @@
+ctc 1614 {'errors': 1, 'reference_tokens': 26, 'rate': 0.038461538461538464} {'errors': 1, 'reference_tokens': 30, 'rate': 0.03333333333333333} rtf 0.05
+ctc 1554 {'errors': 2, 'reference_tokens': 9, 'rate': 0.2222222222222222} {'errors': 3, 'reference_tokens': 12, 'rate': 0.25} rtf 0.05
+ctc 1634 {'errors': 0, 'reference_tokens': 20, 'rate': 0.0} {'errors': 3, 'reference_tokens': 25, 'rate': 0.12} rtf 0.05
+ctc 1615 {'errors': 1, 'reference_tokens': 14, 'rate': 0.07142857142857142} {'errors': 2, 'reference_tokens': 16, 'rate': 0.125} rtf 0.05
+ctc 1609 {'errors': 4, 'reference_tokens': 20, 'rate': 0.2} {'errors': 6, 'reference_tokens': 23, 'rate': 0.2608695652173913} rtf 0.051
+ctc 1549 {'errors': 1, 'reference_tokens': 18, 'rate': 0.05555555555555555} {'errors': 2, 'reference_tokens': 22, 'rate': 0.09090909090909091} rtf 0.052
+ctc 1587 {'errors': 0, 'reference_tokens': 11, 'rate': 0.0} {'errors': 0, 'reference_tokens': 12, 'rate': 0.0} rtf 0.053
+ctc 1618 {'errors': 3, 'reference_tokens': 26, 'rate': 0.11538461538461539} {'errors': 4, 'reference_tokens': 31, 'rate': 0.12903225806451613} rtf 0.052
+ctc 1651 {'errors': 0, 'reference_tokens': 16, 'rate': 0.0} {'errors': 1, 'reference_tokens': 20, 'rate': 0.05} rtf 0.05
+ctc 1647 {'errors': 0, 'reference_tokens': 16, 'rate': 0.0} {'errors': 0, 'reference_tokens': 18, 'rate': 0.0} rtf 0.051
+ctc 1600 {'errors': 0, 'reference_tokens': 20, 'rate': 0.0} {'errors': 2, 'reference_tokens': 26, 'rate': 0.07692307692307693} rtf 0.05
+ctc 1516 {'errors': 0, 'reference_tokens': 20, 'rate': 0.0} {'errors': 0, 'reference_tokens': 25, 'rate': 0.0} rtf 0.05
+ctc 1560 {'errors': 0, 'reference_tokens': 13, 'rate': 0.0} {'errors': 0, 'reference_tokens': 16, 'rate': 0.0} rtf 0.05
+ctc 1619 {'errors': 2, 'reference_tokens': 16, 'rate': 0.125} {'errors': 2, 'reference_tokens': 18, 'rate': 0.1111111111111111} rtf 0.05
+ctc 1525 {'errors': 0, 'reference_tokens': 35, 'rate': 0.0} {'errors': 2, 'reference_tokens': 41, 'rate': 0.04878048780487805} rtf 0.053
+ctc 1563 {'errors': 0, 'reference_tokens': 21, 'rate': 0.0} {'errors': 1, 'reference_tokens': 27, 'rate': 0.037037037037037035} rtf 0.051
+ctc 1534 {'errors': 1, 'reference_tokens': 12, 'rate': 0.08333333333333333} {'errors': 4, 'reference_tokens': 16, 'rate': 0.25} rtf 0.05
+ctc 1522 {'errors': 1, 'reference_tokens': 22, 'rate': 0.045454545454545456} {'errors': 1, 'reference_tokens': 26, 'rate': 0.038461538461538464} rtf 0.051
+ctc 1654 {'errors': 0, 'reference_tokens': 19, 'rate': 0.0} {'errors': 1, 'reference_tokens': 22, 'rate': 0.045454545454545456} rtf 0.05
+ctc 1640 {'errors': 0, 'reference_tokens': 19, 'rate': 0.0} {'errors': 0, 'reference_tokens': 22, 'rate': 0.0} rtf 0.05
+ctc tts_a1 {'errors': 0, 'reference_tokens': 17, 'rate': 0.0} {'errors': 0, 'reference_tokens': 21, 'rate': 0.0} rtf 0.051
+ctc tts_b1 {'errors': 0, 'reference_tokens': 16, 'rate': 0.0} {'errors': 1, 'reference_tokens': 20, 'rate': 0.05} rtf 0.051
+ctc tts_a2 {'errors': 0, 'reference_tokens': 16, 'rate': 0.0} {'errors': 1, 'reference_tokens': 19, 'rate': 0.05263157894736842} rtf 0.051
+MEMORY 404.3828125

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.AudioDecoderTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-11-07T18:02:37.385Z" hostname="MSI" time="1.196">
+  <properties/>
+  <testcase name="pcmWaveDecodesWithoutAnInstalledPlatformRawCodec" classname="ru.neuroscribe.AudioDecoderTest" time="0.093"/>
+  <testcase name="truncatedWavePayloadIsRejected" classname="ru.neuroscribe.AudioDecoderTest" time="0.021"/>
+  <testcase name="fiveMinuteHighRateWaveDoesNotNeedAFullSourcePcmArray" classname="ru.neuroscribe.AudioDecoderTest" time="0.925"/>
+  <testcase name="cancellationIsObservedBeforeOpeningAnyMediaResources" classname="ru.neuroscribe.AudioDecoderTest" time="0.009"/>
+  <testcase name="downsamplingSuppressesAudioAboveTheModelNyquistFrequency" classname="ru.neuroscribe.AudioDecoderTest" time="0.047"/>
+  <testcase name="floatWaveClipsFiniteOutOfRangeSamples" classname="ru.neuroscribe.AudioDecoderTest" time="0.009"/>
+  <testcase name="waveWithAnIncompleteChannelFrameIsRejected" classname="ru.neuroscribe.AudioDecoderTest" time="0.01"/>
+  <testcase name="durationLimitDoesNotDependOnMetadata" classname="ru.neuroscribe.AudioDecoderTest" time="0.024"/>
+  <testcase name="nonFiniteFloatWaveIsRejectedInsteadOfEnteringInference" classname="ru.neuroscribe.AudioDecoderTest" time="0.01"/>
+  <testcase name="oversizedInputIsRejectedBeforeOpeningThePlatformDecoder" classname="ru.neuroscribe.AudioDecoderTest" time="0.003"/>
+  <testcase name="integerWaveEncodingsUseTheCorrectSignedScale" classname="ru.neuroscribe.AudioDecoderTest" time="0.02"/>
+  <testcase name="emptyInputIsRejectedBeforeOpeningThePlatformDecoder" classname="ru.neuroscribe.AudioDecoderTest" time="0.003"/>
+  <testcase name="stereoWaveIsDownmixedBeforeResampling" classname="ru.neuroscribe.AudioDecoderTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

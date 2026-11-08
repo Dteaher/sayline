@@ -1,0 +1,213 @@
+{
+  "environment": "Windows x64 CPU, sherpa-onnx 1.13.8",
+  "threads": 2,
+  "scope": "Host paired evaluation; word metric lowercases and folds yo; punctuation metric tokenizes punctuation separately; no numeric equivalence normalization",
+  "models": {
+    "zipformer_current": {
+      "load_seconds": 1.2460807999996177,
+      "cases": {
+        "fleurs_1634": {
+          "id": "fleurs_1634",
+          "path": "C:\\Users\\irki_\\OneDrive\\Документы\\ChatGPT\\NEOROSCHRIBE\\.work\\gigaam-evaluation\\fleurs_ru_validation_2_gender0.wav",
+          "reference": "В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире!",
+          "provenance": {
+            "dataset": "google/fleurs",
+            "split": "validation",
+            "license": "CC-BY-4.0",
+            "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+            "source_audio_path": "10095490839809792710.wav",
+            "conversion": "Original IEEE float32 mono16kHz to PCM16 mono16kHz, no resampling"
+          },
+          "pipeline": false,
+          "audio_seconds": 11.82,
+          "asr_seconds": 0.35700699999961216,
+          "asr_rtf": 0.03020363790182844,
+          "diarization_seconds": 4.70000031782547e-06,
+          "transcript": "в японии приблизительно семь тысяч островов самый большой из которых хонсю что делает японию седьмым по величине островом в мире",
+          "word_error": {
+            "errors": 4,
+            "reference_tokens": 20,
+            "rate": 0.2
+          },
+          "punctuation_sensitive_token_error": {
+            "errors": 10,
+            "reference_tokens": 26,
+            "rate": 0.38461538461538464
+          },
+          "replicas": [
+            {
+              "start": 0,
+              "end": 11.82,
+              "speaker": 0,
+              "text": "в японии приблизительно семь тысяч островов самый большой из которых хонсю что делает японию седьмым по величине островом в мире"
+            }
+          ],
+          "word_error_number_equivalent": {
+            "errors": 0,
+            "reference_tokens": 20,
+            "rate": 0.0
+          },
+          "punctuation_token_error_number_equivalent": {
+            "errors": 5,
+            "reference_tokens": 25,
+            "rate": 0.2
+          }
+        },
+        "fleurs_1614": {
+          "id": "fleurs_1614",
+          "path": "C:\\Users\\irki_\\OneDrive\\Документы\\ChatGPT\\NEOROSCHRIBE\\.work\\gigaam-evaluation\\fleurs_ru_validation_0_gender1.wav",
+          "reference": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Оцелоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу.",
+          "provenance": {
+            "dataset": "google/fleurs",
+            "split": "validation",
+            "license": "CC-BY-4.0",
+            "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+            "source_audio_path": "10005687533826592442.wav",
+            "conversion": "Original IEEE float32 mono16kHz to PCM16 mono16kHz, no resampling"
+          },
+          "pipeline": false,
+          "audio_seconds": 13.68,
+          "asr_seconds": 0.32034829999975045,
+          "asr_rtf": 0.023417273391794623,
+          "diarization_seconds": 2.200000380980782e-06,
+          "transcript": "они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться ацилоты выслеживают добычу сливаясь с окружающей обстановкой а затем набрасываются на добычу",
+          "word_error": {
+            "errors": 1,
+            "reference_tokens": 26,
+            "rate": 0.038461538461538464
+          },
+          "punctuation_sensitive_token_error": {
+            "errors": 5,
+            "reference_tokens": 30,
+            "rate": 0.16666666666666666
+          },
+          "replicas": [
+            {
+              "start": 0,
+              "end": 13.68,
+              "speaker": 0,
+              "text": "они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться ацилоты выслеживают добычу сливаясь с окружающей обстановкой а затем набрасываются на добычу"
+            }
+          ],
+          "word_error_number_equivalent": {
+            "errors": 1,
+            "reference_tokens": 26,
+            "rate": 0.038461538461538464
+          },
+          "punctuation_token_error_number_equivalent": {
+            "errors": 5,
+            "reference_tokens": 30,
+            "rate": 0.16666666666666666
+          }
+        }
+      }
+    },
+    "gigaam_v3_punct_ctc": {
+      "load_seconds": 1.2515426999998454,
+      "cases": {
+        "fleurs_1634": {
+          "id": "fleurs_1634",
+          "path": "C:\\Users\\irki_\\OneDrive\\Документы\\ChatGPT\\NEOROSCHRIBE\\.work\\gigaam-evaluation\\fleurs_ru_validation_2_gender0.wav",
+          "reference": "В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире!",
+          "provenance": {
+            "dataset": "google/fleurs",
+            "split": "validation",
+            "license": "CC-BY-4.0",
+            "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+            "source_audio_path": "10095490839809792710.wav",
+            "conversion": "Original IEEE float32 mono16kHz to PCM16 mono16kHz, no resampling"
+          },
+          "pipeline": false,
+          "audio_seconds": 11.82,
+          "asr_seconds": 0.8628908000000592,
+          "asr_rtf": 0.07300260575296609,
+          "diarization_seconds": 4.70000031782547e-06,
+          "transcript": "В Японии приблизительно 7 000 островов. Самый большой из которых — Хонсю, что делает Японию седьмым по величине островом в мире",
+          "word_error": {
+            "errors": 4,
+            "reference_tokens": 20,
+            "rate": 0.2
+          },
+          "punctuation_sensitive_token_error": {
+            "errors": 8,
+            "reference_tokens": 26,
+            "rate": 0.3076923076923077
+          },
+          "replicas": [
+            {
+              "start": 0,
+              "end": 11.82,
+              "speaker": 0,
+              "text": "В Японии приблизительно 7 000 островов. Самый большой из которых — Хонсю, что делает Японию седьмым по величине островом в мире"
+            }
+          ],
+          "word_error_number_equivalent": {
+            "errors": 0,
+            "reference_tokens": 20,
+            "rate": 0.0
+          },
+          "punctuation_token_error_number_equivalent": {
+            "errors": 3,
+            "reference_tokens": 25,
+            "rate": 0.12
+          }
+        },
+        "fleurs_1614": {
+          "id": "fleurs_1614",
+          "path": "C:\\Users\\irki_\\OneDrive\\Документы\\ChatGPT\\NEOROSCHRIBE\\.work\\gigaam-evaluation\\fleurs_ru_validation_0_gender1.wav",
+          "reference": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Оцелоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу.",
+          "provenance": {
+            "dataset": "google/fleurs",
+            "split": "validation",
+            "license": "CC-BY-4.0",
+            "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+            "source_audio_path": "10005687533826592442.wav",
+            "conversion": "Original IEEE float32 mono16kHz to PCM16 mono16kHz, no resampling"
+          },
+          "pipeline": false,
+          "audio_seconds": 13.68,
+          "asr_seconds": 0.9290670999998838,
+          "asr_rtf": 0.06791426169589794,
+          "diarization_seconds": 2.200000380980782e-06,
+          "transcript": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Ацилоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу.",
+          "word_error": {
+            "errors": 1,
+            "reference_tokens": 26,
+            "rate": 0.038461538461538464
+          },
+          "punctuation_sensitive_token_error": {
+            "errors": 1,
+            "reference_tokens": 30,
+            "rate": 0.03333333333333333
+          },
+          "replicas": [
+            {
+              "start": 0,
+              "end": 13.68,
+              "speaker": 0,
+              "text": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Ацилоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу."
+            }
+          ],
+          "word_error_number_equivalent": {
+            "errors": 1,
+            "reference_tokens": 26,
+            "rate": 0.038461538461538464
+          },
+          "punctuation_token_error_number_equivalent": {
+            "errors": 1,
+            "reference_tokens": 30,
+            "rate": 0.03333333333333333
+          }
+        }
+      }
+    }
+  },
+  "numeric_equivalence": {
+    "scope": "Only fixture1634 reference formats; organizer allows digit/word forms",
+    "aliases": {
+      "7000": "семь тысяч",
+      "7 000": "семь тысяч",
+      "7-м": "седьмым"
+    }
+  }
+}

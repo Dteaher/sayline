@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.TranscriptJsonTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-07T22:48:44.432Z" hostname="MSI" time="0.002">
+  <properties/>
+  <testcase name="nonFiniteTimestampsAreRejected" classname="ru.neuroscribe.TranscriptJsonTest" time="0.001"/>
+  <testcase name="negativeSpeakerIdsAreRejected" classname="ru.neuroscribe.TranscriptJsonTest" time="0.0"/>
+  <testcase name="reversedIntervalsAreRejected" classname="ru.neuroscribe.TranscriptJsonTest" time="0.0"/>
+  <testcase name="emptySpeechExportsAnEmptyTranscript" classname="ru.neuroscribe.TranscriptJsonTest" time="0.001"/>
+  <testcase name="exportUsesOrganizerSchemaAndStableSpeakerIdentity" classname="ru.neuroscribe.TranscriptJsonTest" time="0.0"/>
+  <testcase name="quotesBackslashesAndControlCharactersRemainValidJson" classname="ru.neuroscribe.TranscriptJsonTest" time="0.0"/>
+  <testcase name="timestampsRoundToIntegerMilliseconds" classname="ru.neuroscribe.TranscriptJsonTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

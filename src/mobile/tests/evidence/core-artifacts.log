@@ -1,0 +1,31 @@
+{
+  "apk": "NeuroScribe-debug.apk",
+  "bytes": 408892854,
+  "sha256": "95ee22554997857dc34b094c374645cc518fa7f6b53ff2f4ff30654776ce54a2",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "permissions": [
+    "package: ru.neuroscribe",
+    "uses-permission: name='android.permission.RECORD_AUDIO'",
+    "permission: ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "uses-permission: name='ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+  ],
+  "test_fixture_data_absent": true,
+  "signature_verified": true,
+  "zip_aligned_16k": true,
+  "native_load_alignments": {
+    "lib/arm64-v8a/libandroidx.graphics.path.so": 16384,
+    "lib/arm64-v8a/libonnxruntime.so": 16384,
+    "lib/arm64-v8a/libsherpa-onnx-c-api.so": 16384,
+    "lib/arm64-v8a/libsherpa-onnx-cxx-api.so": 16384,
+    "lib/arm64-v8a/libsherpa-onnx-jni.so": 16384,
+    "lib/x86_64/libandroidx.graphics.path.so": 16384,
+    "lib/x86_64/libonnxruntime.so": 16384,
+    "lib/x86_64/libsherpa-onnx-c-api.so": 16384,
+    "lib/x86_64/libsherpa-onnx-cxx-api.so": 16384,
+    "lib/x86_64/libsherpa-onnx-jni.so": 16384
+  },
+  "native_16k_compatible": true
+}

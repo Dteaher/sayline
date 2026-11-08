@@ -1,0 +1,2 @@
+{'native_threshold': 0.5, 'variant': 'baseline', 'gap': 1.2, 'der': 0.24098627903785225, 'jer': 0.436960920328992, 'count_mae': 5.666666666666667, 'short_0.5': {'total': 22, 'detected': 19, 'correct_speaker': 8}}
+{'native_threshold': 0.5, 'variant': 'anchored', 'gap': 1.2, 'der': 0.24098627903785225, 'jer': 0.436960920328992, 'count_mae': 5.666666666666667, 'short_0.5': {'total': 22, 'detected': 19, 'correct_speaker': 8}}

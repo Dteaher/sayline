@@ -1,0 +1,23 @@
+{
+  "test": "scripts/native-regression.py",
+  "purpose": "Reproduce unsafe top-k indexing with overlapping synthetic voices and one requested cluster. This is native safety evidence, not speech accuracy evidence.",
+  "production_android_crash": {
+    "source": ".work/device-crash.log",
+    "device": "realme RMX5051RU, Android 16, ARM64",
+    "library_build_id": "a3acb1442271559fa4fc7502b9fd576c1538845f",
+    "crash_pc": "0x3e1be8",
+    "instruction": "ldr w15, [x8, w13, sxtw #2]",
+    "analysis": "The crash instruction is an inlined partial_sort comparator in TopkIndex. Tombstone x19=2 is the requested top-k, while x22=x25+4 gives a one-element index vector. A garbage out-of-range index is read past its end. JNI process+136 is the virtual Process call, before result marshaling."
+  },
+  "unsafe_source": "https://github.com/k2-fsa/sherpa-onnx/blob/v1.12.32/sherpa-onnx/csrc/math.h#L105-L115",
+  "caller_source": "https://github.com/k2-fsa/sherpa-onnx/blob/v1.12.32/sherpa-onnx/csrc/offline-speaker-diarization-pyannote-impl.h#L563-L578",
+  "fixed_source": "https://github.com/k2-fsa/sherpa-onnx/blob/v1.13.8/sherpa-onnx/csrc/math.h#L104-L124",
+  "old_host_run": {
+    "sherpa_onnx": "1.12.32",
+    "environment": "Windows x64 CPU",
+    "exit_code": 3221225477,
+    "exit_code_hex": "0xc0000005",
+    "meaning": "native access violation; no result produced"
+  },
+  "android_regression_on_fixed_dependency": "NOT RUN: the physical device was disconnected during investigation"
+}

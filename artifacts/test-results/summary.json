@@ -1,0 +1,21 @@
+{
+  "device": "2311DRK48G",
+  "abi": "arm64-v8a",
+  "cases": [
+    {
+      "report": "returning-thread-comparison.json",
+      "two_threads_ms": 26170,
+      "four_threads_ms": 21662,
+      "speed_gain_percent": 17.225831104317923,
+      "identical_exports": true
+    },
+    {
+      "report": "actors-thread-comparison.json",
+      "two_threads_ms": 34455,
+      "four_threads_ms": 31582.5,
+      "speed_gain_percent": 8.336961253809317,
+      "identical_exports": true
+    }
+  ],
+  "scope": "Two fixed Russian fixtures, four full inference runs each; no universal speed/accuracy claim"
+}

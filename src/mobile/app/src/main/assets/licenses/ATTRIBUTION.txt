@@ -1,0 +1,25 @@
+NeuroScribe third-party attribution
+
+ASR: GigaAM v3 Russian CTC with punctuation, MIT. Copyright 2024 GigaChat Team.
+https://github.com/salute-developers/GigaAM
+ONNX/int8 export distributed by k2-fsa/sherpa-onnx, 2025-12-16.
+See GigaAM-MIT.txt. NeuroScribe renames model.int8.onnx to gigaam-v3.int8.onnx; weights are unchanged.
+
+Speaker segmentation: pyannote/segmentation-3.0, MIT.
+Copyright 2023 CNRS. See pyannote-segmentation-MIT.txt.
+https://huggingface.co/pyannote/segmentation-3.0
+
+Speaker embeddings: WeSpeaker project (wenet-e2e), ResNet34 trained on VoxCeleb.
+Pretrained VoxCeleb model weights: Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+https://github.com/wenet-e2e/wespeaker/blob/master/docs/pretrained.md#model-license
+https://huggingface.co/Wespeaker/wespeaker-voxceleb-resnet34
+ONNX artifact distributed by k2-fsa/sherpa-onnx as wespeaker_en_voxceleb_resnet34.onnx.
+NeuroScribe renames this file to speaker.onnx; no weight modification or training.
+WeSpeaker implementation code is Apache-2.0; that code license is distinct from weights.
+
+Inference: sherpa-onnx 1.13.8, Apache-2.0; ONNX Runtime, Microsoft, MIT.
+Additional license texts accompany this notice in this directory.
+
+GTCRN: Rong Xiaobin, MIT; original github.com/Xiaobin-Rong/gtcrn; sherpa-onnx ONNX export, unmodified weights.
+3D-Speaker ERes2Net VoxCeleb: Alibaba DAMO Academy / 3D-Speaker authors, Apache-2.0, ModelScope iic/speech_eres2net_sv_en_voxceleb_16k; sherpa-onnx ONNX export, unmodified weights.

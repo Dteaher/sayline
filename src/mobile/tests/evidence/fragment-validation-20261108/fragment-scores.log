@@ -1,0 +1,50 @@
+{
+  "current": {
+    "files": 3,
+    "der": 0.3196056614222426,
+    "jer": 0.4189223890094316,
+    "count_mae": 5.666666666666667,
+    "count_signed_mean": 5.666666666666667,
+    "exact_speaker_count_files": 0,
+    "reference_speaker_seconds": 352.1200000000001,
+    "miss_seconds": 35.54433900000009,
+    "false_alarm_seconds": 31.84248749999995,
+    "confusion_seconds": 45.15271900000005,
+    "overlap_miss_seconds": 12.372865000000036,
+    "overlap_reference_speaker_seconds": 48.92000000000022,
+    "short_0.5": {
+      "total": 29,
+      "detected": 25,
+      "correct_speaker": 5
+    },
+    "short_1.0": {
+      "total": 52,
+      "detected": 46,
+      "correct_speaker": 15
+    }
+  },
+  "candidate": {
+    "files": 3,
+    "der": 0.3196056614222426,
+    "jer": 0.4189223890094316,
+    "count_mae": 5.666666666666667,
+    "count_signed_mean": 5.666666666666667,
+    "exact_speaker_count_files": 0,
+    "reference_speaker_seconds": 352.1200000000001,
+    "miss_seconds": 35.54433900000009,
+    "false_alarm_seconds": 31.84248749999995,
+    "confusion_seconds": 45.15271900000005,
+    "overlap_miss_seconds": 12.372865000000036,
+    "overlap_reference_speaker_seconds": 48.92000000000022,
+    "short_0.5": {
+      "total": 29,
+      "detected": 25,
+      "correct_speaker": 5
+    },
+    "short_1.0": {
+      "total": 52,
+      "detected": 46,
+      "correct_speaker": 15
+    }
+  }
+}

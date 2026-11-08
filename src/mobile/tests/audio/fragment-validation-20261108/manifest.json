@@ -1,0 +1,98 @@
+{
+  "selection": {
+    "development": [],
+    "holdout": [
+      "IS1007a",
+      "ES2014a",
+      "TS3008a"
+    ]
+  },
+  "start_seconds": 60,
+  "stop_seconds": 240,
+  "reference_commit": "67c2d539286e89f68952d5dcf83912bd9f01dfae",
+  "purpose": "Fresh validation for one frozen fragment-merge policy; no inference used for selection",
+  "locked_at_utc": "2026-11-08T03:12:30.416098+00:00",
+  "reference": "AMI manual orthographic annotation with forced-aligned word timings; only_words RTTM",
+  "limits": "English AMI meetings, not Russian conversation gold; not independent of model pretraining",
+  "disjoint_from_manifest": "tests/audio/cleanrefs-confirmation-20261108/manifest.json",
+  "disjoint_from_manifest_sha256": "45113a6d54ad4c7c22d53df1b7599e755a5643d2e958b1be86964f00e17b14a6",
+  "selection_speakers": {
+    "IS1007a": [
+      "MIO025",
+      "MIO049",
+      "MIO072",
+      "MIO075"
+    ],
+    "ES2014a": [
+      "FEE055",
+      "MEE053",
+      "MEE054",
+      "MEE056"
+    ],
+    "TS3008a": [
+      "MTD029PM",
+      "MTD030ID",
+      "MTD031UID",
+      "MTD032ME"
+    ]
+  },
+  "recordings": [
+    {
+      "id": "IS1007a",
+      "split": "holdout",
+      "duration_seconds": 180,
+      "audio": "tests/audio/fragment-validation-20261108/IS1007a.wav",
+      "reference_rttm": "tests/audio/fragment-validation-20261108/IS1007a.rttm",
+      "source_audio_url": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/IS1007a/audio/IS1007a.Mix-Headset.wav",
+      "audio_sha256": "1f7c8c6a51f5e3d79a0175465487a280a13c038d3b248f520cd4430d4e19925b",
+      "source_reference_url": "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/67c2d539286e89f68952d5dcf83912bd9f01dfae/only_words/rttms/train/IS1007a.rttm",
+      "source_reference_sha256": "0400f649ecf16901f4b2c2c0049cbbf749facd008d3c631c62fe0727dc25a612",
+      "reference_sha256": "613417f8af471525e234d747dcc09c24fa4f114fcc4b05351ee0c100962e2a87",
+      "all_meeting_speakers": [
+        "MIO025",
+        "MIO049",
+        "MIO072",
+        "MIO075"
+      ]
+    },
+    {
+      "id": "ES2014a",
+      "split": "holdout",
+      "duration_seconds": 180,
+      "audio": "tests/audio/fragment-validation-20261108/ES2014a.wav",
+      "reference_rttm": "tests/audio/fragment-validation-20261108/ES2014a.rttm",
+      "source_audio_url": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2014a/audio/ES2014a.Mix-Headset.wav",
+      "audio_sha256": "3b0969f0aa8b4bc4a962a1ed3af3b03af910643962cc8099280c888ea4970963",
+      "source_reference_url": "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/67c2d539286e89f68952d5dcf83912bd9f01dfae/only_words/rttms/train/ES2014a.rttm",
+      "source_reference_sha256": "87e624189417b1526e11d2dc39cbff315de242c31369346203a3c5da8f9c8ef1",
+      "reference_sha256": "e1546ec005d8580f1da51827470b4b6a0699fe0ba4f670547706da716e53dc6f",
+      "all_meeting_speakers": [
+        "FEE055",
+        "MEE053",
+        "MEE054",
+        "MEE056"
+      ]
+    },
+    {
+      "id": "TS3008a",
+      "split": "holdout",
+      "duration_seconds": 180,
+      "audio": "tests/audio/fragment-validation-20261108/TS3008a.wav",
+      "reference_rttm": "tests/audio/fragment-validation-20261108/TS3008a.rttm",
+      "source_audio_url": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/TS3008a/audio/TS3008a.Mix-Headset.wav",
+      "audio_sha256": "fedfaa3c485fc732f74f5b4a5966d9ff87f329dcb9fa3837f3c5c48693eea176",
+      "source_reference_url": "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/67c2d539286e89f68952d5dcf83912bd9f01dfae/only_words/rttms/train/TS3008a.rttm",
+      "source_reference_sha256": "6750db5eb80d821b9fba5f3cde56abc04bf0c1bebc7ad83bb02513dfd44cd86d",
+      "reference_sha256": "dacbb3110c50e85c024e2183ed6fe21ff488ca0a4b7e9dbadf453e4e7508291b",
+      "all_meeting_speakers": [
+        "MTD029PM",
+        "MTD030ID",
+        "MTD031UID",
+        "MTD032ME"
+      ]
+    }
+  ],
+  "speaker_disjoint": true,
+  "speaker_disjoint_from_prior_12": true,
+  "audio_inference_performed": false
+}

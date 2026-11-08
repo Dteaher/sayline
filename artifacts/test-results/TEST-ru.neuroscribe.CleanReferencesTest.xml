@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.CleanReferencesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-08T05:08:36.887Z" hostname="MSI" time="0.02">
+  <properties/>
+  <testcase name="manyFragmentsKeepLongestCleanContiguousSpanWithoutArtificialSplicing" classname="ru.neuroscribe.CleanReferencesTest" time="0.005"/>
+  <testcase name="supplementalPlanKeepsOldReferencesAndAddsOnlyRecoveredCleanEvidence" classname="ru.neuroscribe.CleanReferencesTest" time="0.006"/>
+  <testcase name="smallBoundaryOverlapsAreStillExcludedFromVoiceEvidence" classname="ru.neuroscribe.CleanReferencesTest" time="0.0"/>
+  <testcase name="longCleanSpanUsesSameCenteredTenSecondWindowAsBaseline" classname="ru.neuroscribe.CleanReferencesTest" time="0.0"/>
+  <testcase name="invalidBoundsFailBeforeArraySlicing" classname="ru.neuroscribe.CleanReferencesTest" time="0.001"/>
+  <testcase name="supplementalPlanSharesOneInferenceBudgetWithBaseline" classname="ru.neuroscribe.CleanReferencesTest" time="0.006"/>
+  <testcase name="overlappingBlockersAreSubtractedAsAUnionAndSameNativeVoiceIsNotABlocker" classname="ru.neuroscribe.CleanReferencesTest" time="0.0"/>
+  <testcase name="shortInterruptionDoesNotDiscardAllFiveSecondsOfSpeakerEvidence" classname="ru.neuroscribe.CleanReferencesTest" time="0.0"/>
+  <testcase name="androidAndHostUseIdenticalIntegerSampleBoundaries" classname="ru.neuroscribe.CleanReferencesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

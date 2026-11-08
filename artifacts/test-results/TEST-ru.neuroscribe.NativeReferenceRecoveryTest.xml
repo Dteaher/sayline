@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.NativeReferenceRecoveryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-08T05:08:36.932Z" hostname="MSI" time="0.008">
+  <properties/>
+  <testcase name="twoWindowsRecoverCleanEvidenceWithoutChangingNativeIntervals" classname="ru.neuroscribe.NativeReferenceRecoveryTest" time="0.004"/>
+  <testcase name="oldReferencesAndBudgetRemainIntact" classname="ru.neuroscribe.NativeReferenceRecoveryTest" time="0.002"/>
+  <testcase name="repeatedSameWindowAndWrongVoiceAreNotIndependentEvidence" classname="ru.neuroscribe.NativeReferenceRecoveryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

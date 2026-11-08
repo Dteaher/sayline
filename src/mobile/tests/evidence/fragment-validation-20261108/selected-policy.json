@@ -1,0 +1,15 @@
+{
+  "locked_at_utc": "2026-11-08T03:13:41.659524+00:00",
+  "threshold": 0.55,
+  "margin": 0.1,
+  "core_seconds": 5,
+  "core_references": 2,
+  "overlap_veto_seconds": 0.2,
+  "fragment_min_references": 1,
+  "reason": "Selected on12 diagnostic files before fresh3 inference; no later retuning",
+  "recordings": [
+    "IS1007a",
+    "ES2014a",
+    "TS3008a"
+  ]
+}

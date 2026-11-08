@@ -1,0 +1,5 @@
+{
+  "installed_app": "0.4.0; installation and launch previously PASS",
+  "automated_inference": "NOT RUN",
+  "reason": "Android rejected test APK: INSTALL_FAILED_USER_RESTRICTED. User instructed emulator-only testing; no retry or phone settings change."
+}

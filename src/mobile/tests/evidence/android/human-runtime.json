@@ -1,0 +1,10 @@
+{
+  "device": "Android SDK built for x86_64",
+  "sdk": 35,
+  "abi": "x86_64",
+  "audio_seconds": 39.31999969482422,
+  "processing_ms": 9823,
+  "rtf": 0.24982197548930868,
+  "dominant_speakers": "0,2,0",
+  "fixture": "FLEURS concatenated read speech, CC-BY-4.0; not a natural conversation"
+}

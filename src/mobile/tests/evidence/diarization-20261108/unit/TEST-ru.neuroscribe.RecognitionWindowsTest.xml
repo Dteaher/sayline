@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.RecognitionWindowsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-07T22:48:44.394Z" hostname="MSI" time="0.007">
+  <properties/>
+  <testcase name="unicodeSpacesAndBpePiecesReconstructWordsAndPunctuation" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.003"/>
+  <testcase name="wordStartingExactlyAtTheBoundaryIsOwnedByTheFollowingWindow" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.001"/>
+  <testcase name="longTurnHasAdjacentOwnedRangesAndOnlyOneSecondOfContext" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.0"/>
+  <testcase name="turnAndContextAreClippedToActualAudio" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.001"/>
+  <testcase name="aWordCrossingTheBoundaryIsKeptWholeExactlyOnce" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.0"/>
+  <testcase name="repeatedGenuineWordsArePreserved" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.0"/>
+  <testcase name="missingOrInvalidTokenTimingIsRejected" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.001"/>
+  <testcase name="delayedPunctuationFollowsItsWordAcrossTheOwnershipBoundary" classname="ru.neuroscribe.RecognitionWindowsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,106 @@
+{
+  "key": "TS3005a-on030",
+  "id": "TS3005a",
+  "split": "development",
+  "min_duration_on": 0.3,
+  "duration_seconds": 120.0,
+  "native_seconds": 26.060003900001902,
+  "all_turn_embedding_seconds": 0.5003216000004613,
+  "native_turns": [
+    [
+      2.5453438758850098,
+      3.321593761444092,
+      1,
+      0.9500527381896973
+    ],
+    [
+      2.98409366607666,
+      3.507218837738037,
+      0,
+      0.48251813650131226
+    ],
+    [
+      14.442218780517578,
+      18.964719772338867,
+      2,
+      0.49157994985580444
+    ],
+    [
+      16.12972068786621,
+      16.905969619750977,
+      4,
+      -0.19120261073112488
+    ],
+    [
+      18.964719772338867,
+      21.124719619750977,
+      4,
+      0.2498883157968521
+    ],
+    [
+      22.86284637451172,
+      111.06847381591797,
+      4,
+      0.5497526526451111
+    ],
+    [
+      88.52346801757812,
+      88.8440933227539,
+      0,
+      -2.0
+    ],
+    [
+      96.7416000366211,
+      97.2815933227539,
+      0,
+      -2.0
+    ],
+    [
+      111.11909484863281,
+      116.45159912109375,
+      5,
+      0.8023168444633484
+    ],
+    [
+      117.56534576416016,
+      119.97846984863281,
+      5,
+      0.862806499004364
+    ]
+  ],
+  "native_score": {
+    "der": 0.12402036633239304,
+    "jer": 0.373463705171553,
+    "miss_seconds": 0.7321511840820403,
+    "false_alarm_seconds": 7.052150402069106,
+    "confusion_seconds": 4.524719772338862,
+    "reference_speaker_seconds": 99.25,
+    "reference_speakers": 3,
+    "hypothesis_speakers": 5,
+    "count_signed_error": 2,
+    "count_absolute_error": 2,
+    "overlap_reference_speaker_seconds": 2.3200000000000074,
+    "overlap_miss_seconds": 0.6090948486328216,
+    "overlap_miss_rate": 0.2625408830313878,
+    "collar_seconds": 0.0,
+    "skip_overlap": false,
+    "mapping": {
+      "5": "FTD019UID",
+      "4": "MTD017PM",
+      "2": "MTD018ID"
+    },
+    "short_0.5": {
+      "total": 5,
+      "detected": 4,
+      "correct_speaker": 1,
+      "definition": ">=50% of each reference interval; full intervals, independent of collar"
+    },
+    "short_1.0": {
+      "total": 5,
+      "detected": 4,
+      "correct_speaker": 1,
+      "definition": ">=50% of each reference interval; full intervals, independent of collar"
+    }
+  },
+  "hidden_stages": "NOT EXPOSED: raw frame segmentation and native embedding retention cannot be counted through this API"
+}

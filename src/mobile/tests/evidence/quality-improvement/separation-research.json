@@ -1,0 +1,61 @@
+{
+  "runtime": "1.23.2",
+  "model": "third-party ONNX export of speechbrain/sepformer-wsj02mix, 8k English training, research only",
+  "sha256": "e7c682ac986efe7136407b8f8bbd093b514f95aca1d2735a3945b40b3470bfb6",
+  "load_seconds": 1.0629079999998794,
+  "inputs": [
+    [
+      "mix_sig",
+      [
+        1,
+        "N"
+      ]
+    ]
+  ],
+  "cases": [
+    {
+      "case": "tts",
+      "seconds": 2.0,
+      "inference_seconds": 1.8371874000004027,
+      "rtf": 0.9185937000002014,
+      "input_sisdr": [
+        -0.26398390531539917,
+        -0.22042888402938843
+      ],
+      "output_sisdr": [
+        3.828226327896118,
+        3.5769870281219482
+      ],
+      "improvement": [
+        4.092210233211517,
+        3.7974159121513367
+      ],
+      "shape": [
+        2,
+        16000
+      ]
+    },
+    {
+      "case": "recorded_female",
+      "seconds": 2.0,
+      "inference_seconds": 1.8405474000028335,
+      "rtf": 0.9202737000014167,
+      "input_sisdr": [
+        -0.03710483759641647,
+        -0.03711632639169693
+      ],
+      "output_sisdr": [
+        22.91016387939453,
+        22.967164993286133
+      ],
+      "improvement": [
+        22.947268716990948,
+        23.00428131967783
+      ],
+      "shape": [
+        2,
+        16000
+      ]
+    }
+  ]
+}

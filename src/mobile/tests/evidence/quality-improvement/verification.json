@@ -1,0 +1,31 @@
+{
+  "version": "0.3.0",
+  "jvm_tests": 62,
+  "jvm_failures": 0,
+  "jvm_errors": 0,
+  "android_regular_passed": 32,
+  "android_regular_skipped": 0,
+  "android_regular_seconds": 94.119,
+  "long_audio_seconds": 1200,
+  "long_runs_ms": [
+    356414,
+    306478
+  ],
+  "separation_candidate_android_passed": true,
+  "python_artifact_cli_tests": 7,
+  "lint_errors": 0,
+  "lint_warning_ids": [
+    "AndroidGradlePluginVersion",
+    "GradleDependency",
+    "GradleDependency",
+    "GradleDependency",
+    "GradleDependency",
+    "GradleDependency",
+    "GradleDependency",
+    "GradleDependency",
+    "NewerVersionAvailable"
+  ],
+  "physical_arm": "NOT RUN",
+  "spontaneous_meeting_der": "NOT RUN",
+  "production_overlap_separation": "NOT IMPLEMENTED; real isolated Android research benchmark passed"
+}

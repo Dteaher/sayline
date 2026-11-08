@@ -1,0 +1,201 @@
+{
+  "dataset": "FLEURS: Few-shot Learning Evaluation of Universal Representations of Speech",
+  "authors": "Alexis Conneau et al. / Google",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution_url": "https://huggingface.co/datasets/google/fleurs",
+  "license_evidence": "https://huggingface.co/datasets/google/fleurs/raw/main/README.md (license: cc-by-4.0)",
+  "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+  "source_size": 243616673,
+  "source_revision": "Unknown original cache revision; per-range and embedded-audio SHA-256 retained.",
+  "extraction": "Local original Parquet range cache; every accessed byte required, overlapping bytes checked equal.",
+  "source_ranges": [
+    {
+      "file": "range-100675272-109063880.bin",
+      "bytes": 8388608,
+      "sha256": "5b802cdf71120e791b3132436cef97d62d4095eedb9b340aabe13b4834e7afbc"
+    },
+    {
+      "file": "range-1050-2196.bin",
+      "bytes": 1146,
+      "sha256": "48f735492592fc3682b8b9a60b52a93d6a32b03fe98057543e5fba074a3a088a"
+    },
+    {
+      "file": "range-109063880-117452488.bin",
+      "bytes": 8388608,
+      "sha256": "eb329a4b04afb49c2667fb4846df8d2af519972100a38a3d93ce35b57217b304"
+    },
+    {
+      "file": "range-117452488-125841096.bin",
+      "bytes": 8388608,
+      "sha256": "4e9c1f1f9ac4f9020d8f11959141c90c45d8c04cce57b05f706457e1866ca412"
+    },
+    {
+      "file": "range-11976-8400584.bin",
+      "bytes": 8388608,
+      "sha256": "1bf7f6a9d597078f31ba10cf81855a06b99dd1ed073ffa5f4d83779e79689ab3"
+    },
+    {
+      "file": "range-125841096-134229704.bin",
+      "bytes": 8388608,
+      "sha256": "0489c2e1388eb495efe1a85f2f279c46e5b641fb63ad4a21bf0b155d04c80c9c"
+    },
+    {
+      "file": "range-134229704-142618312.bin",
+      "bytes": 8388608,
+      "sha256": "e1425968887520a782124131685a07fa2c31b25c8dddf424d89819cc262f4f39"
+    },
+    {
+      "file": "range-142618312-151006920.bin",
+      "bytes": 8388608,
+      "sha256": "b0f1a3339663b37003d1471795e6d4645120e2a834b5b210ead62a8a9965811a"
+    },
+    {
+      "file": "range-151006920-159395528.bin",
+      "bytes": 8388608,
+      "sha256": "eb50cc485ca34d3ae5e55bad3a528cc178b1b8f79c150adfa49f39eae2977048"
+    },
+    {
+      "file": "range-159395528-167784136.bin",
+      "bytes": 8388608,
+      "sha256": "1d5f932cfd0bb5b9a55c358e01ed894b6a2a869706614615e4a1df8e6b81d8d8"
+    },
+    {
+      "file": "range-167784136-176172744.bin",
+      "bytes": 8388608,
+      "sha256": "f4f9082af22c22ad29e85763cc4dc505cdc0ea533be853a35fd67054e93f4dbe"
+    },
+    {
+      "file": "range-16789192-25177800.bin",
+      "bytes": 8388608,
+      "sha256": "8620784d0d7f8343a30aedfd78c34b2dff7e53b04d67eb109596d5ab3968d1ad"
+    },
+    {
+      "file": "range-176172744-184561352.bin",
+      "bytes": 8388608,
+      "sha256": "09048b7c31fd392ce05dc50420bc8adf932cb3173c28436a2a7e58d6d1aa6336"
+    },
+    {
+      "file": "range-184561352-192949960.bin",
+      "bytes": 8388608,
+      "sha256": "1b2921f4d6b5002e7ac2bd2b42d90a0d4a4566478a663ba3217a85bba2b14f0e"
+    },
+    {
+      "file": "range-192949960-201338568.bin",
+      "bytes": 8388608,
+      "sha256": "b3a1aad0d1f793d6a37e8b4aa141ebc084e32206738c4fac42eacddb371cb648"
+    },
+    {
+      "file": "range-201338568-209727176.bin",
+      "bytes": 8388608,
+      "sha256": "240f22384c782f9b3beade59a82c4e7eb4268b95ac36db111c5cfce58b44ef79"
+    },
+    {
+      "file": "range-209727176-218115784.bin",
+      "bytes": 8388608,
+      "sha256": "5d33cabacfa59b8ad09cd720b22367ddcb8e3e1a2419a165fed5c24e174d504f"
+    },
+    {
+      "file": "range-218115784-226504392.bin",
+      "bytes": 8388608,
+      "sha256": "aa87596699d6862f70623c74a8567af0ecac3203767eaaa80b2eee889ac77365"
+    },
+    {
+      "file": "range-226504392-234893000.bin",
+      "bytes": 8388608,
+      "sha256": "55de05a6b72594c0a29721b7addbd5051913be7863ce96ee751f7dc7ffb588c0"
+    },
+    {
+      "file": "range-234893000-243281608.bin",
+      "bytes": 8388608,
+      "sha256": "ec62b7590f251255355e514e81b8d262e01d6e547518614fc35ed691c14708ae"
+    },
+    {
+      "file": "range-243281608-243556912.bin",
+      "bytes": 275304,
+      "sha256": "cf6ded45e59a56475264e065c43e43622ab29764fef91ce70c042aec52c7d47b"
+    },
+    {
+      "file": "range-243551137-243616673.bin",
+      "bytes": 65536,
+      "sha256": "51ce17306b0273094b866c98d4e0560b234812b0797cd4faaeed4b4bc113cadf"
+    },
+    {
+      "file": "range-243556912-243564201.bin",
+      "bytes": 7289,
+      "sha256": "aac099230d8fcf1d15b32e34838340cbb3c55398b4b2a208080e380dcff9e57f"
+    },
+    {
+      "file": "range-243564201-243585407.bin",
+      "bytes": 21206,
+      "sha256": "3e533709fd38d819649bc295d8f150a1eb28ae903073feb7d831fbb8706140ae"
+    },
+    {
+      "file": "range-243585407-243607509.bin",
+      "bytes": 22102,
+      "sha256": "1cd62781c448472791888c9198503998a77cfcd79e920c4670f4bbe0b37bf139"
+    },
+    {
+      "file": "range-243607509-243607664.bin",
+      "bytes": 155,
+      "sha256": "18cba9bcd294d0e3e5df9d77d3656368359df1337999462c4cc4eab8b58ac326"
+    },
+    {
+      "file": "range-25177800-33566408.bin",
+      "bytes": 8388608,
+      "sha256": "8f0baaf9eb0586bc97e3e06e9be868f8a3ae1e366dae6162d7d95c8413b3c60a"
+    },
+    {
+      "file": "range-33566408-41955016.bin",
+      "bytes": 8388608,
+      "sha256": "72f3872b36254cd0f77140fce061923429716b49749acbf1b48b6cd417fd7617"
+    },
+    {
+      "file": "range-4-1050.bin",
+      "bytes": 1046,
+      "sha256": "1655649847f8f9ab2b9f5496d33c6e8ba59a895397274c0d03e639d3b5de420b"
+    },
+    {
+      "file": "range-41955016-50343624.bin",
+      "bytes": 8388608,
+      "sha256": "e6144096d6bc85d65966a084d0601991c3f6cfaa5e105016011890b0619d1771"
+    },
+    {
+      "file": "range-50343624-58732232.bin",
+      "bytes": 8388608,
+      "sha256": "c6536734d804ac6e6864eea6d5c57f38a1668a49e7d98afbdc63e9b806db1299"
+    },
+    {
+      "file": "range-58732232-67120840.bin",
+      "bytes": 8388608,
+      "sha256": "bf003b5ae8cb1bac9bedab95feb418bc3a41e21ef2dd655230d4446cee7453a7"
+    },
+    {
+      "file": "range-67120840-75509448.bin",
+      "bytes": 8388608,
+      "sha256": "ab39d13b75054b4a17cef75de07e1f04c19380c2d11cef56b21dcea554061706"
+    },
+    {
+      "file": "range-75509448-83898056.bin",
+      "bytes": 8388608,
+      "sha256": "3673875ff19cad67d866a4352f78e5b7a3f67fe6f1647faaa9495e026e27b385"
+    },
+    {
+      "file": "range-83898056-92286664.bin",
+      "bytes": 8388608,
+      "sha256": "ca73eb6c00bcbe15834c4cd5209c62f6ce8be646e286eacbcad63e5b1b5ce243"
+    },
+    {
+      "file": "range-8400584-16789192.bin",
+      "bytes": 8388608,
+      "sha256": "f6cc80e241ceb309c9f99f5253d4d54663bbb335c3905f94d0e27a7031a48739"
+    },
+    {
+      "file": "range-92286664-100675272.bin",
+      "bytes": 8388608,
+      "sha256": "a7ed46d988f98e381aca3c1c7993eac4f79fa9860dff9b6f453e72e84d4aca17"
+    }
+  ],
+  "changes": "IEEE float32 mono 16000 Hz -> PCM16 via round(x*32768), saturating signed int16; no resampling/crops.",
+  "selection": "All fixed consecutive zero-based rows 20..31, selected before inference; no replacements."
+}

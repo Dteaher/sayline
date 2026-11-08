@@ -1,0 +1,27 @@
+{
+  "scope": "2 fixed actual natural Russian calls per DataHive; producer says2 participant tracks. Metadata automatic, no human transcript/intervals, no count hint supplied to model. Not DER/WER evidence.",
+  "results": [
+    {
+      "id": "natural_ru_000001",
+      "audio_seconds": 401.08075,
+      "expected_participant_tracks": 2,
+      "baseline_groups": 16,
+      "candidate_groups": 16,
+      "native_ms": 42161,
+      "native_references": 697,
+      "baseline_intervals": 113,
+      "candidate_intervals": 113
+    },
+    {
+      "id": "natural_ru_000002",
+      "audio_seconds": 169.01288,
+      "expected_participant_tracks": 2,
+      "baseline_groups": 7,
+      "candidate_groups": 7,
+      "native_ms": 20131,
+      "native_references": 306,
+      "baseline_intervals": 60,
+      "candidate_intervals": 60
+    }
+  ]
+}

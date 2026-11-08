@@ -1,0 +1,11 @@
+{
+  "app/src/main/java/ru/neuroscribe/core/AnchoredRefinement.kt": "c3fbd00b8355fb0d89f2b0fbb368f1c46ea7d95e22c2a29579726fa8b226cf5a",
+  "app/src/main/java/ru/neuroscribe/core/CleanReferences.kt": "b81b080e005e7ac3c6e23de0a4f95594270587a5465d611bfa608cc922cbf355",
+  "app/src/main/java/ru/neuroscribe/core/RefinementSampling.kt": "e2069b9bbeada51d4e09431936a278a00039bdc4733471d9c1687dc562a12039",
+  "app/src/main/java/ru/neuroscribe/core/SpeakerRefinement.kt": "b9517a0c688cb0dd618ede43f4fd742706d62e71ab5b8fd7ca393378b462f791",
+  "app/src/main/java/ru/neuroscribe/ml/SpeechEngine.kt": "17da4443e25186ad5151fab74f3b77aa3124600dd23adce7303c18dbfbf7b5ce",
+  "app/src/main/java/ru/neuroscribe/ml/DiarizationAnalysis.kt": "535348d76238b7bc266685907047bfe591bfd1ce767fc7e99b60bf120fe65671",
+  "scripts/cleanrefs-experiment.py": "9694b87550cca05d491e296ee8b962e0ea58fb8922b54ba62eabbe9d7752665e",
+  "scripts/diarization_metrics.py": "c2e668ee67e1b7e7c517979a52bb8edbe2030469ed9202a1f9560df90681f416",
+  "app/src/diarizationResearch/java/ru/neuroscribe/CleanReferenceEvaluation.kt": "993bec4b4446e1eda9bbe74f6bc92fce3f0756c8ffe8bc4edcb4d6782bcc463d"
+}

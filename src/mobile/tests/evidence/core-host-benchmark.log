@@ -1,0 +1,11 @@
+INFERENCE single
+single {"audio_seconds": 13.355, "processing_seconds": 8.749927799999568, "rtf": 0.6551799176338127, "speaker_count": 1, "wer": 0.0, "punctuation_token_error": 0.047619047619047616}
+INFERENCE two
+two {"audio_seconds": 26.746, "processing_seconds": 11.513610199999675, "rtf": 0.43047970537649277, "speaker_count": 2, "wer": 0.0, "punctuation_token_error": 0.04878048780487805}
+INFERENCE returning
+returning {"audio_seconds": 39.486, "processing_seconds": 13.287266100000124, "rtf": 0.33650575140556466, "speaker_count": 2, "wer": 0.0, "punctuation_token_error": 0.03333333333333333, "dominant_cluster_per_utterance": [0, 1, 0], "returning_speaker_preserved": true}
+INFERENCE noise
+noise {"audio_seconds": 39.486, "processing_seconds": 14.154462899999999, "rtf": 0.3584678848199362, "speaker_count": 2, "wer": 0.0, "punctuation_token_error": 0.03333333333333333, "dominant_cluster_per_utterance": [0, 1, 0], "returning_speaker_preserved": true}
+INFERENCE silence
+silence {"audio_seconds": 5.0, "processing_seconds": 1.4744482999994943, "rtf": 0.29488965999989886, "speaker_count": 0, "wer": null, "punctuation_token_error": null}
+CHECKS {'single_voice': True, 'two_voices': True, 'returning_voice': True, 'noise': True, 'silence': True}

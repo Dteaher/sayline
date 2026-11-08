@@ -1,0 +1,20 @@
+
+ru.neuroscribe.AudioDecoderConnectedTest:.
+ru.neuroscribe.BackgroundProcessingTest:.
+ru.neuroscribe.DesignScreensTest:....
+ru.neuroscribe.DiarizationCandidateTest:.
+ru.neuroscribe.DiarizationDiagnosticsTest:..
+ru.neuroscribe.ExportFeedbackTest:.
+ru.neuroscribe.MandatoryFlowTest:....
+ru.neuroscribe.OfflinePipelineTest:.........
+ru.neuroscribe.ProcessingServiceLifecycleTest:..
+ru.neuroscribe.RecordingLifecycleTest:.
+ru.neuroscribe.RecordingStoreDesignTest:..
+ru.neuroscribe.TranscriptEditingTest:...
+ru.neuroscribe.TranscriptPolishTest:....
+
+Time: 176.396
+
+OK (35 tests)
+
+

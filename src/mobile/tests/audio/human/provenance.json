@@ -1,0 +1,60 @@
+{
+  "dataset": "google/fleurs",
+  "config": "ru_ru",
+  "split": "validation",
+  "license": "CC-BY-4.0",
+  "source_url": "https://huggingface.co/datasets/google/fleurs/resolve/refs%2Fconvert%2Fparquet/ru_ru/validation/0000.parquet",
+  "dataset_card": "https://huggingface.co/datasets/google/fleurs",
+  "fixtures": [
+    {
+      "id": 1634,
+      "transcription": "в японии приблизительно 7000 островов самый большой из которых — хонсю что делает японию 7-м по величине островом в мире!",
+      "raw_transcription": "В Японии приблизительно 7000 островов (самый большой из которых — Хонсю), что делает Японию 7-м по величине островом в мире!",
+      "gender": 0,
+      "num_samples": 189120,
+      "file": "fleurs_ru_validation_2_gender0.wav",
+      "row_index": 2,
+      "bytes": 756538,
+      "source_audio_path": "10095490839809792710.wav",
+      "sha256": "6322af8001ae8063cce679fa86dde252858f0f5354fb2dca2b8b0614b331fb3b"
+    },
+    {
+      "id": 1614,
+      "transcription": "они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться оцелоты выслеживают добычу сливаясь с окружающей обстановкой а затем набрасываются на добычу",
+      "raw_transcription": "Они умеют отлично видеть в темноте при помощи ночного видения и почти незаметно передвигаться. Оцелоты выслеживают добычу, сливаясь с окружающей обстановкой, а затем набрасываются на добычу.",
+      "gender": 1,
+      "num_samples": 218880,
+      "file": "fleurs_ru_validation_0_gender1.wav",
+      "row_index": 0,
+      "bytes": 875578,
+      "source_audio_path": "10005687533826592442.wav",
+      "sha256": "0ebc61463e1e2db72f81f5261b865b5cead812851cbb07a799d5e98cf9df8654"
+    }
+  ],
+  "downloaded_bytes": 243673196,
+  "constructed_returning": {
+    "file": "returning.wav",
+    "sequence": [
+      1634,
+      1614,
+      1634
+    ],
+    "gap_seconds": 1,
+    "sha256": "a6aea413fd299fd538bd766da6af80fdb6475e29aeed1cf5ebb7ae498622bc6f",
+    "note": "Concatenated independent read-speech clips; not a natural conversation; no real overlap.",
+    "windows": [
+      {
+        "start": 0,
+        "end": 11.82
+      },
+      {
+        "start": 12.82,
+        "end": 26.5
+      },
+      {
+        "start": 27.5,
+        "end": 39.32
+      }
+    ]
+  }
+}

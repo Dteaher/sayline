@@ -1,0 +1,76 @@
+{
+  "scope": "Observed English AMI diagnostic selection; not independent final validation",
+  "cases": [
+    {
+      "id": "ES2015a",
+      "file": "ES2015a.wav",
+      "audio_sha256": "bc48d7b61aed36ec54f7cbfb5b4753e4d5709c3f85f580e36d65d57f461ab1f4"
+    },
+    {
+      "id": "IS1006a",
+      "file": "IS1006a.wav",
+      "audio_sha256": "4e283f548d4372c0f4ff1030fe3ba231ce2fb97fcb8d5120cfb1e1716f04fad1"
+    },
+    {
+      "id": "TS3009a",
+      "file": "TS3009a.wav",
+      "audio_sha256": "af187136b9dcc0f325c3327bcfc9e87ec9361abfc12c4d5fcbb05bc19034d3f3"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "ES2015a",
+      "split": "holdout",
+      "duration_seconds": 180,
+      "audio": "tests/audio/native-profile-validation-20261108/ES2015a.wav",
+      "reference_rttm": "tests/audio/native-profile-validation-20261108/ES2015a.rttm",
+      "audio_sha256": "bc48d7b61aed36ec54f7cbfb5b4753e4d5709c3f85f580e36d65d57f461ab1f4",
+      "reference_sha256": "6fb471c81a25023f0fc8aa08945e8d9439648b79ca2e3ca68ae8d4361988ddf7",
+      "source_audio_url": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/ES2015a/audio/ES2015a.Mix-Headset.wav",
+      "source_reference_url": "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/67c2d539286e89f68952d5dcf83912bd9f01dfae/only_words/rttms/train/ES2015a.rttm",
+      "source_reference_sha256": "6a6b46b53d72ca31cdad16cf4e1c940c14f8e8af7279049d77adc4b215a29436",
+      "all_meeting_speakers": [
+        "FEE057",
+        "FEE058",
+        "FEE059",
+        "FEE060"
+      ]
+    },
+    {
+      "id": "IS1006a",
+      "split": "holdout",
+      "duration_seconds": 180,
+      "audio": "tests/audio/native-profile-validation-20261108/IS1006a.wav",
+      "reference_rttm": "tests/audio/native-profile-validation-20261108/IS1006a.rttm",
+      "audio_sha256": "4e283f548d4372c0f4ff1030fe3ba231ce2fb97fcb8d5120cfb1e1716f04fad1",
+      "reference_sha256": "5f48fb2685c27f052f3bb221f944ac6b2405f03d3cb95ee292b7553c4e8bd302",
+      "source_audio_url": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/IS1006a/audio/IS1006a.Mix-Headset.wav",
+      "source_reference_url": "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/67c2d539286e89f68952d5dcf83912bd9f01dfae/only_words/rttms/train/IS1006a.rttm",
+      "source_reference_sha256": "e8e61965098fa2d5dc75b2c3a291dba698c959fa5ec0628ff81a682339d4b310",
+      "all_meeting_speakers": [
+        "FIO041",
+        "MIO008",
+        "MIO040",
+        "MIO078"
+      ]
+    },
+    {
+      "id": "TS3009a",
+      "split": "holdout",
+      "duration_seconds": 180,
+      "audio": "tests/audio/native-profile-validation-20261108/TS3009a.wav",
+      "reference_rttm": "tests/audio/native-profile-validation-20261108/TS3009a.rttm",
+      "audio_sha256": "af187136b9dcc0f325c3327bcfc9e87ec9361abfc12c4d5fcbb05bc19034d3f3",
+      "reference_sha256": "8e4e1091fbf8523cce8b88b93a1df0d3d03ab03b5537271de6596ecbda5f34c3",
+      "source_audio_url": "https://groups.inf.ed.ac.uk/ami/AMICorpusMirror/amicorpus/TS3009a/audio/TS3009a.Mix-Headset.wav",
+      "source_reference_url": "https://raw.githubusercontent.com/pyannote/AMI-diarization-setup/67c2d539286e89f68952d5dcf83912bd9f01dfae/only_words/rttms/train/TS3009a.rttm",
+      "source_reference_sha256": "29b9be6c30e5a26c2c96b055bbf04fded627c3bd25f51e9957a5f430c9def2a0",
+      "all_meeting_speakers": [
+        "MTD033PM",
+        "MTD034ID",
+        "MTD035UID",
+        "MTD036ME"
+      ]
+    }
+  ]
+}

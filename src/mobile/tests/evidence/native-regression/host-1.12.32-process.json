@@ -1,0 +1,9 @@
+{
+  "interpreter": ".work/qa/Scripts/python.exe",
+  "returncode": 3221225477,
+  "returncode_hex": "0xc0000005",
+  "stdout": "START 1.12.32 synthetic-overlap-forced-one-cluster\n",
+  "stderr": "",
+  "environment": "Windows x64 CPU; not an Android test",
+  "input_float32_sha256": "bf7e428ce20ce96daed339cbea79e95de27ef786207dddf9057ab20c62accfe0"
+}

@@ -1,0 +1,63 @@
+{
+  "scope": "Natural Russian calls without human references",
+  "cases": [
+    {
+      "id": "natural_ru_000001",
+      "file": "natural_ru_000001.mp3",
+      "audio_sha256": "d83967d4e62f9214eba0aab72c2d5aac4638c5b2b34ca619907b2101c2894d8f"
+    },
+    {
+      "id": "natural_ru_000002",
+      "file": "natural_ru_000002.mp3",
+      "audio_sha256": "89fa89a61b8564b6261498f4c1ee3cf8cc5982f122caa126ca9cae0a2a64415d"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "natural_ru_000001",
+      "audio": "tests/audio/natural-russian-20261108/ru_000001.mp3",
+      "audio_sha256": "d83967d4e62f9214eba0aab72c2d5aac4638c5b2b34ca619907b2101c2894d8f",
+      "source_audio_url": "https://huggingface.co/datasets/datahiveai/multilingual-conversations-sample/resolve/c29728a0c9792ba486807fa1ea9ca64e292cec01/preview/ru_000001.mp3",
+      "duration_seconds": 401.112,
+      "producer_metadata": {
+        "file_name": "ru_000001.mp3",
+        "country_from": "UA",
+        "country_to": "UA",
+        "topic": "games_hobbies",
+        "languages": [
+          "ru"
+        ],
+        "duration_seconds": 401.112,
+        "turns_per_minute": 4.8,
+        "turn_taking_gap_ms": 850,
+        "speech_balance_percent": 26.1,
+        "overlap_percent": 15,
+        "language": "ru"
+      },
+      "expected_participant_tracks": 2
+    },
+    {
+      "id": "natural_ru_000002",
+      "audio": "tests/audio/natural-russian-20261108/ru_000002.mp3",
+      "audio_sha256": "89fa89a61b8564b6261498f4c1ee3cf8cc5982f122caa126ca9cae0a2a64415d",
+      "source_audio_url": "https://huggingface.co/datasets/datahiveai/multilingual-conversations-sample/resolve/c29728a0c9792ba486807fa1ea9ca64e292cec01/preview/ru_000002.mp3",
+      "duration_seconds": 169.056,
+      "producer_metadata": {
+        "file_name": "ru_000002.mp3",
+        "country_from": "RU",
+        "country_to": "RU",
+        "topic": "work_career",
+        "languages": [
+          "ru"
+        ],
+        "duration_seconds": 169.056,
+        "turns_per_minute": 12.9,
+        "turn_taking_gap_ms": 312,
+        "speech_balance_percent": 47.7,
+        "overlap_percent": 20,
+        "language": "ru"
+      },
+      "expected_participant_tracks": 2
+    }
+  ]
+}

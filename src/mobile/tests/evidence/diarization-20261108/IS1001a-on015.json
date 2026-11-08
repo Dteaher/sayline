@@ -1,0 +1,129 @@
+{
+  "key": "IS1001a-on015",
+  "id": "IS1001a",
+  "split": "development",
+  "min_duration_on": 0.15,
+  "duration_seconds": 120.0,
+  "native_seconds": 22.34431300000142,
+  "all_turn_embedding_seconds": 1.8442558000024292,
+  "native_turns": [
+    [
+      3.0347187519073486,
+      5.633469104766846,
+      0,
+      0.6115257740020752
+    ],
+    [
+      18.745346069335938,
+      22.964096069335938,
+      1,
+      -0.06630920618772507
+    ],
+    [
+      22.964096069335938,
+      31.350971221923828,
+      2,
+      0.5928998589515686
+    ],
+    [
+      32.970970153808594,
+      59.025970458984375,
+      2,
+      0.5766647458076477
+    ],
+    [
+      59.025970458984375,
+      65.20221710205078,
+      1,
+      -0.2988339364528656
+    ],
+    [
+      66.95722198486328,
+      72.0365982055664,
+      2,
+      0.20878268778324127
+    ],
+    [
+      72.0365982055664,
+      81.84097290039062,
+      1,
+      0.1723000556230545
+    ],
+    [
+      78.51659393310547,
+      78.92159271240234,
+      2,
+      -2.0
+    ],
+    [
+      82.39784240722656,
+      83.56221771240234,
+      2,
+      0.38993018865585327
+    ],
+    [
+      83.52847290039062,
+      87.5784683227539,
+      1,
+      0.09829339385032654
+    ],
+    [
+      84.59159851074219,
+      84.96284484863281,
+      2,
+      0.41526731848716736
+    ],
+    [
+      88.27034759521484,
+      103.59284973144531,
+      2,
+      0.5244474411010742
+    ],
+    [
+      106.05659484863281,
+      114.42659759521484,
+      2,
+      0.6025989651679993
+    ],
+    [
+      115.69222259521484,
+      119.97846984863281,
+      2,
+      0.5830265283584595
+    ]
+  ],
+  "native_score": {
+    "der": 0.270972283024902,
+    "jer": 0.45663075525114083,
+    "miss_seconds": 1.7583427238464413,
+    "false_alarm_seconds": 5.537084074020395,
+    "confusion_seconds": 17.77221910476685,
+    "reference_speaker_seconds": 92.51,
+    "reference_speakers": 2,
+    "hypothesis_speakers": 3,
+    "count_signed_error": 1,
+    "count_absolute_error": 1,
+    "overlap_reference_speaker_seconds": 1.0600000000000023,
+    "overlap_miss_seconds": 0.28659393310546477,
+    "overlap_miss_rate": 0.2703716350051549,
+    "collar_seconds": 0.0,
+    "skip_overlap": false,
+    "mapping": {
+      "1": "MIO012",
+      "2": "MIO043"
+    },
+    "short_0.5": {
+      "total": 3,
+      "detected": 3,
+      "correct_speaker": 2,
+      "definition": ">=50% of each reference interval; full intervals, independent of collar"
+    },
+    "short_1.0": {
+      "total": 5,
+      "detected": 5,
+      "correct_speaker": 3,
+      "definition": ">=50% of each reference interval; full intervals, independent of collar"
+    }
+  },
+  "hidden_stages": "NOT EXPOSED: raw frame segmentation and native embedding retention cannot be counted through this API"
+}

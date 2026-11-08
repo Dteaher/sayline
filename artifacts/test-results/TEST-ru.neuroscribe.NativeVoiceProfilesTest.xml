@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.NativeVoiceProfilesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-08T05:08:36.942Z" hostname="MSI" time="0.012">
+  <properties/>
+  <testcase name="contradictoryCleanCoverageCannotAssignAProfileToOneOfTwoGroups" classname="ru.neuroscribe.NativeVoiceProfilesTest" time="0.006"/>
+  <testcase name="rareAmbiguousAndUnsupportedVoicesRemainSeparate" classname="ru.neuroscribe.NativeVoiceProfilesTest" time="0.003"/>
+  <testcase name="nativeProfilesRecoverFragmentWithoutAssumingLabelsMatchAfterRefinement" classname="ru.neuroscribe.NativeVoiceProfilesTest" time="0.001"/>
+  <testcase name="centeredProfileStillRequiresRawAgreementAndPreservesRareVoices" classname="ru.neuroscribe.NativeVoiceProfilesTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

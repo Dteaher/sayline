@@ -1,0 +1,27 @@
+{
+  "locked_at_utc": "2026-11-08T03:59:08.443604+00:00",
+  "recordings": [
+    "ES2016a",
+    "IS1005a",
+    "TS3010a"
+  ],
+  "native_profile_similarity": 0.55,
+  "margin": 0.1,
+  "clean_assignment_purity": 0.7,
+  "clean_assignment_margin": 0.3,
+  "core_seconds": 5,
+  "core_references": 2,
+  "fragment_references": 2,
+  "overlap_veto": 0.2,
+  "recover_native_references": false,
+  "split_native_conflicts": false,
+  "retuning_after_validation": false,
+  "source_sha256": {
+    "app/src/main/java/ru/neuroscribe/core/NativeVoiceProfiles.kt": "12f141b770103efd08c92ad32dd2bb60055f7fb8256c05634f63190f34d54453",
+    "app/src/main/java/ru/neuroscribe/core/NativeDiarizationTrace.kt": "1fd3779cf9a6de43ddca7e829152c395f9d4e95f6fb4ee972a4ccffe24259772"
+  },
+  "center_profiles": true,
+  "centered_similarity": 0.35,
+  "raw_target_agreement": true,
+  "baseline": "Current uncentered native profiles; separate exploratory follow-up, earlier validation already observed"
+}

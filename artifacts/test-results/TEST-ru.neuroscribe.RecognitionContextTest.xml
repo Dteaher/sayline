@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.RecognitionContextTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-08T05:08:37.041Z" hostname="MSI" time="0.002">
+  <properties/>
+  <testcase name="includesNearbyAudioWithoutChangingSpeakerOrModelTurn" classname="ru.neuroscribe.RecognitionContextTest" time="0.001"/>
+  <testcase name="boundaryTouchingVoicePreventsAddedContextWithoutTrimmingOriginal" classname="ru.neuroscribe.RecognitionContextTest" time="0.0"/>
+  <testcase name="containedInterruptionDoesNotRemoveSafeTrailingSilence" classname="ru.neuroscribe.RecognitionContextTest" time="0.0"/>
+  <testcase name="contextNeverCrossesTheNextOrPreviousSpeakersBoundary" classname="ru.neuroscribe.RecognitionContextTest" time="0.001"/>
+  <testcase name="earlierContainingVoiceBlocksBothSidesDespiteAnInterveningShortTurn" classname="ru.neuroscribe.RecognitionContextTest" time="0.0"/>
+  <testcase name="overlapDoesNotExpandIntoAnotherSpeakersInterval" classname="ru.neuroscribe.RecognitionContextTest" time="0.0"/>
+  <testcase name="earlierLongVoiceLimitsLeadingContextAfterItEnds" classname="ru.neuroscribe.RecognitionContextTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

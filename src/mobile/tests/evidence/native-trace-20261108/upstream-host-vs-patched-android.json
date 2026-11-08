@@ -1,0 +1,53 @@
+{
+  "scope": "Historical official host raw turns vs patched Android native raw turns on6 diagnostic files; no performance comparison",
+  "results": [
+    {
+      "id": "ES2002a",
+      "old_intervals": 27,
+      "new_intervals": 27,
+      "max_boundary_difference_seconds": 4.614257818502665e-06,
+      "partition_equal_up_to_ids": true,
+      "within_0_00001": true
+    },
+    {
+      "id": "ES2003a",
+      "old_intervals": 14,
+      "new_intervals": 14,
+      "max_boundary_difference_seconds": 5.834960944639533e-06,
+      "partition_equal_up_to_ids": true,
+      "within_0_00001": true
+    },
+    {
+      "id": "IS1009a",
+      "old_intervals": 22,
+      "new_intervals": 22,
+      "max_boundary_difference_seconds": 7.055664070776402e-06,
+      "partition_equal_up_to_ids": true,
+      "within_0_00001": true
+    },
+    {
+      "id": "EN2002a",
+      "old_intervals": 47,
+      "new_intervals": 47,
+      "max_boundary_difference_seconds": 6.445312493497113e-06,
+      "partition_equal_up_to_ids": true,
+      "within_0_00001": true
+    },
+    {
+      "id": "ES2014a",
+      "old_intervals": 30,
+      "new_intervals": 30,
+      "max_boundary_difference_seconds": 7.055664070776402e-06,
+      "partition_equal_up_to_ids": true,
+      "within_0_00001": true
+    },
+    {
+      "id": "TS3008a",
+      "old_intervals": 41,
+      "new_intervals": 41,
+      "max_boundary_difference_seconds": 7.055664070776402e-06,
+      "partition_equal_up_to_ids": true,
+      "within_0_00001": true
+    }
+  ]
+}

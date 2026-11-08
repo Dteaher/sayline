@@ -1,0 +1,24 @@
+{
+  "native_thresholds": [
+    0.5,
+    0.6,
+    0.7
+  ],
+  "reference_methods": [
+    "whole-turn exclusion baseline",
+    "longest clean contiguous portion"
+  ],
+  "grouping_gaps": [
+    1.2,
+    0.4,
+    0.0
+  ],
+  "fixed_other_settings": {
+    "min_duration_on": 0.15,
+    "min_duration_off": 0.4,
+    "refinement_threshold": 0.6
+  },
+  "declared_in": "scripts/cleanrefs-experiment.py and CleanReferenceEvaluation.kt before first native probe",
+  "new_holdout": "IS1009a/TS3003a/EN2002a,60\u2013240s, not yet scored",
+  "russian_regression": "Fixed FLEURS validation20\u201331; read speech; known sentence overlap disclosed"
+}

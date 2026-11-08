@@ -1,0 +1,571 @@
+{
+  "scope": "3 observed diagnostic English AMI cases; primary linkage experiment, not validation",
+  "results": [
+    {
+      "id": "ES2002a",
+      "variant": "current",
+      "der": 0.16877631191844555,
+      "jer": 0.29670441190588026,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 8.636397750000018,
+      "false_alarm_seconds": 3.5345000000000013,
+      "confusion_seconds": 12.497447999999977,
+      "reference_speaker_seconds": 146.15999999999997,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 10,
+      "count_signed_error": 6,
+      "count_absolute_error": 6,
+      "overlap_reference_speaker_seconds": 13.969999999999978,
+      "overlap_miss_seconds": 3.76006700000001,
+      "overlap_miss_rate": 0.269152970651397,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "0": "FEE005",
+        "1": "MEE006",
+        "3": "MEE007",
+        "2": "MEE008"
+      },
+      "short_0.5": {
+        "total": 8,
+        "detected": 8,
+        "correct_speaker": 2,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 4,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "ES2002a",
+      "variant": "average_native_only",
+      "der": 0.16047851498357948,
+      "jer": 0.42506413530374254,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 8.855755750000007,
+      "false_alarm_seconds": 3.3826189999999983,
+      "confusion_seconds": 11.217164999999966,
+      "reference_speaker_seconds": 146.15999999999997,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 10,
+      "count_signed_error": 6,
+      "count_absolute_error": 6,
+      "overlap_reference_speaker_seconds": 13.969999999999978,
+      "overlap_miss_seconds": 3.962555000000016,
+      "overlap_miss_rate": 0.28364745884037385,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "0": "FEE005",
+        "12": "MEE006",
+        "13": "MEE007",
+        "7": "MEE008"
+      },
+      "short_0.5": {
+        "total": 8,
+        "detected": 8,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 5,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "ES2002a",
+      "variant": "average_with_eres",
+      "der": 0.1476776802818827,
+      "jer": 0.22139205548554963,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 8.855755750000007,
+      "false_alarm_seconds": 3.3826189999999983,
+      "confusion_seconds": 9.346194999999963,
+      "reference_speaker_seconds": 146.15999999999997,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 11,
+      "count_signed_error": 7,
+      "count_absolute_error": 7,
+      "overlap_reference_speaker_seconds": 13.969999999999978,
+      "overlap_miss_seconds": 3.962555000000016,
+      "overlap_miss_rate": 0.28364745884037385,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "3": "FEE005",
+        "6": "MEE006",
+        "2": "MEE007",
+        "1": "MEE008"
+      },
+      "short_0.5": {
+        "total": 8,
+        "detected": 8,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "ES2002a",
+      "variant": "average_with_profiles",
+      "der": 0.1226233562534207,
+      "jer": 0.15892526895654227,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 8.855755750000007,
+      "false_alarm_seconds": 3.3826189999999983,
+      "confusion_seconds": 5.684254999999961,
+      "reference_speaker_seconds": 146.15999999999997,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 9,
+      "count_signed_error": 5,
+      "count_absolute_error": 5,
+      "overlap_reference_speaker_seconds": 13.969999999999978,
+      "overlap_miss_seconds": 3.962555000000016,
+      "overlap_miss_rate": 0.28364745884037385,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "3": "FEE005",
+        "6": "MEE006",
+        "2": "MEE007",
+        "1": "MEE008"
+      },
+      "short_0.5": {
+        "total": 8,
+        "detected": 8,
+        "correct_speaker": 2,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 4,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "IS1009a",
+      "variant": "current",
+      "der": 0.1950663664913244,
+      "jer": 0.2843828403553189,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 2.2665900499999974,
+      "false_alarm_seconds": 8.580318099999976,
+      "confusion_seconds": 13.998694950000008,
+      "reference_speaker_seconds": 127.36999999999999,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 7,
+      "count_signed_error": 3,
+      "count_absolute_error": 3,
+      "overlap_reference_speaker_seconds": 7.899999999999984,
+      "overlap_miss_seconds": 2.157226299999997,
+      "overlap_miss_rate": 0.2730666202531647,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "2": "FIE088",
+        "1": "FIO084",
+        "4": "FIO087",
+        "0": "FIO089"
+      },
+      "short_0.5": {
+        "total": 9,
+        "detected": 9,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 12,
+        "detected": 12,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "IS1009a",
+      "variant": "average_native_only",
+      "der": 0.31902200753709636,
+      "jer": 0.5824777656882852,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 1.5419500499999752,
+      "false_alarm_seconds": 10.876318099999969,
+      "confusion_seconds": 28.21556495000002,
+      "reference_speaker_seconds": 127.36999999999999,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 4,
+      "count_signed_error": 0,
+      "count_absolute_error": 0,
+      "overlap_reference_speaker_seconds": 7.899999999999984,
+      "overlap_miss_seconds": 1.4494562999999863,
+      "overlap_miss_rate": 0.18347548101265684,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "2": "FIE088",
+        "0": "FIO084",
+        "1": "FIO087",
+        "3": "FIO089"
+      },
+      "short_0.5": {
+        "total": 9,
+        "detected": 9,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 12,
+        "detected": 12,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "IS1009a",
+      "variant": "average_with_eres",
+      "der": 0.31902200753709636,
+      "jer": 0.5824777656882852,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 1.5419500499999752,
+      "false_alarm_seconds": 10.876318099999969,
+      "confusion_seconds": 28.21556495000002,
+      "reference_speaker_seconds": 127.36999999999999,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 4,
+      "count_signed_error": 0,
+      "count_absolute_error": 0,
+      "overlap_reference_speaker_seconds": 7.899999999999984,
+      "overlap_miss_seconds": 1.4494562999999863,
+      "overlap_miss_rate": 0.18347548101265684,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "1": "FIE088",
+        "0": "FIO084",
+        "2": "FIO087",
+        "3": "FIO089"
+      },
+      "short_0.5": {
+        "total": 9,
+        "detected": 9,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 12,
+        "detected": 12,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "IS1009a",
+      "variant": "average_with_profiles",
+      "der": 0.31902200753709636,
+      "jer": 0.5824777656882852,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 1.5419500499999752,
+      "false_alarm_seconds": 10.876318099999969,
+      "confusion_seconds": 28.21556495000002,
+      "reference_speaker_seconds": 127.36999999999999,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 4,
+      "count_signed_error": 0,
+      "count_absolute_error": 0,
+      "overlap_reference_speaker_seconds": 7.899999999999984,
+      "overlap_miss_seconds": 1.4494562999999863,
+      "overlap_miss_rate": 0.18347548101265684,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "1": "FIE088",
+        "0": "FIO084",
+        "2": "FIO087",
+        "3": "FIO089"
+      },
+      "short_0.5": {
+        "total": 9,
+        "detected": 9,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 12,
+        "detected": 12,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "EN2002a",
+      "variant": "current",
+      "der": 0.2726982812728067,
+      "jer": 0.4039230226212973,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 15.936241749999972,
+      "false_alarm_seconds": 5.734373999999958,
+      "confusion_seconds": 34.37706200000002,
+      "reference_speaker_seconds": 205.52999999999997,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 15,
+      "count_signed_error": 11,
+      "count_absolute_error": 11,
+      "overlap_reference_speaker_seconds": 72.39000000000001,
+      "overlap_miss_seconds": 13.918000999999997,
+      "overlap_miss_rate": 0.1922641386931896,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "2": "FEO070",
+        "0": "FEO072",
+        "4": "MEE071",
+        "14": "MEE073"
+      },
+      "short_0.5": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 3,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 18,
+        "detected": 18,
+        "correct_speaker": 5,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "EN2002a",
+      "variant": "average_native_only",
+      "der": 0.22697435289252177,
+      "jer": 0.40788055506762977,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 15.851795749999987,
+      "false_alarm_seconds": 5.329293999999988,
+      "confusion_seconds": 25.468949000000023,
+      "reference_speaker_seconds": 205.53,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 14,
+      "count_signed_error": 10,
+      "count_absolute_error": 10,
+      "overlap_reference_speaker_seconds": 72.39000000000001,
+      "overlap_miss_seconds": 13.833555000000011,
+      "overlap_miss_rate": 0.19109759635308757,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "5": "FEO070",
+        "1": "FEO072",
+        "7": "MEE071",
+        "12": "MEE073"
+      },
+      "short_0.5": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 18,
+        "detected": 18,
+        "correct_speaker": 2,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "EN2002a",
+      "variant": "average_with_eres",
+      "der": 0.2723994976402471,
+      "jer": 0.5459508430821115,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 19.192415750000002,
+      "false_alarm_seconds": 5.2949039999999865,
+      "confusion_seconds": 31.498948999999996,
+      "reference_speaker_seconds": 205.53,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 13,
+      "count_signed_error": 9,
+      "count_absolute_error": 9,
+      "overlap_reference_speaker_seconds": 72.39000000000001,
+      "overlap_miss_seconds": 17.174175000000027,
+      "overlap_miss_rate": 0.23724513054289298,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "4": "FEO070",
+        "0": "FEO072",
+        "1": "MEE071",
+        "8": "MEE073"
+      },
+      "short_0.5": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 18,
+        "detected": 18,
+        "correct_speaker": 2,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    },
+    {
+      "id": "EN2002a",
+      "variant": "average_with_profiles",
+      "der": 0.2723994976402471,
+      "jer": 0.5459508430821115,
+      "jer_mapping": "minimum Jaccard cost, dscore convention",
+      "miss_seconds": 19.192415750000002,
+      "false_alarm_seconds": 5.2949039999999865,
+      "confusion_seconds": 31.498948999999996,
+      "reference_speaker_seconds": 205.53,
+      "reference_speakers": 4,
+      "hypothesis_speakers": 13,
+      "count_signed_error": 9,
+      "count_absolute_error": 9,
+      "overlap_reference_speaker_seconds": 72.39000000000001,
+      "overlap_miss_seconds": 17.174175000000027,
+      "overlap_miss_rate": 0.23724513054289298,
+      "collar_seconds": 0.0,
+      "collar_definition": "total centered width, pyannote convention",
+      "skip_overlap": false,
+      "mapping": {
+        "4": "FEO070",
+        "0": "FEO072",
+        "1": "MEE071",
+        "8": "MEE073"
+      },
+      "short_0.5": {
+        "total": 13,
+        "detected": 13,
+        "correct_speaker": 1,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      },
+      "short_1.0": {
+        "total": 18,
+        "detected": 18,
+        "correct_speaker": 2,
+        "definition": ">=50% of each reference interval; full intervals, independent of collar"
+      }
+    }
+  ],
+  "summaries": {
+    "current": {
+      "files": 3,
+      "der": 0.22035157725545848,
+      "jer": 0.3283367582941655,
+      "count_mae": 6.666666666666667,
+      "count_signed_mean": 6.666666666666667,
+      "exact_speaker_count_files": 0,
+      "reference_speaker_seconds": 479.05999999999995,
+      "miss_seconds": 26.839229549999988,
+      "false_alarm_seconds": 17.849192099999936,
+      "confusion_seconds": 60.87320495000001,
+      "overlap_miss_seconds": 19.835294300000005,
+      "overlap_reference_speaker_seconds": 94.25999999999998,
+      "short_0.5": {
+        "total": 30,
+        "detected": 30,
+        "correct_speaker": 6
+      },
+      "short_1.0": {
+        "total": 43,
+        "detected": 43,
+        "correct_speaker": 12
+      }
+    },
+    "average_native_only": {
+      "files": 3,
+      "der": 0.23115979543272228,
+      "jer": 0.4718074853532192,
+      "count_mae": 5.333333333333333,
+      "count_signed_mean": 5.333333333333333,
+      "exact_speaker_count_files": 1,
+      "reference_speaker_seconds": 479.05999999999995,
+      "miss_seconds": 26.24950154999997,
+      "false_alarm_seconds": 19.588231099999955,
+      "confusion_seconds": 64.90167895,
+      "overlap_miss_seconds": 19.245566300000014,
+      "overlap_reference_speaker_seconds": 94.25999999999998,
+      "short_0.5": {
+        "total": 30,
+        "detected": 30,
+        "correct_speaker": 5
+      },
+      "short_1.0": {
+        "total": 43,
+        "detected": 43,
+        "correct_speaker": 10
+      }
+    },
+    "average_with_eres": {
+      "files": 3,
+      "der": 0.2467429374191123,
+      "jer": 0.4499402214186488,
+      "count_mae": 5.333333333333333,
+      "count_signed_mean": 5.333333333333333,
+      "exact_speaker_count_files": 1,
+      "reference_speaker_seconds": 479.05999999999995,
+      "miss_seconds": 29.590121549999985,
+      "false_alarm_seconds": 19.553841099999953,
+      "confusion_seconds": 69.06070894999998,
+      "overlap_miss_seconds": 22.58618630000003,
+      "overlap_reference_speaker_seconds": 94.25999999999998,
+      "short_0.5": {
+        "total": 30,
+        "detected": 30,
+        "correct_speaker": 3
+      },
+      "short_1.0": {
+        "total": 43,
+        "detected": 43,
+        "correct_speaker": 8
+      }
+    },
+    "average_with_profiles": {
+      "files": 3,
+      "der": 0.23909892623053464,
+      "jer": 0.42911795924231305,
+      "count_mae": 4.666666666666667,
+      "count_signed_mean": 4.666666666666667,
+      "exact_speaker_count_files": 1,
+      "reference_speaker_seconds": 479.05999999999995,
+      "miss_seconds": 29.590121549999985,
+      "false_alarm_seconds": 19.553841099999953,
+      "confusion_seconds": 65.39876894999998,
+      "overlap_miss_seconds": 22.58618630000003,
+      "overlap_reference_speaker_seconds": 94.25999999999998,
+      "short_0.5": {
+        "total": 30,
+        "detected": 30,
+        "correct_speaker": 4
+      },
+      "short_1.0": {
+        "total": 43,
+        "detected": 43,
+        "correct_speaker": 9
+      }
+    }
+  }
+}

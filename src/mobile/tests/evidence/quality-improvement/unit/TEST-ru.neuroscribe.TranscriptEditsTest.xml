@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.neuroscribe.TranscriptEditsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-07T21:30:52.912Z" hostname="MSI" time="0.001">
+  <properties/>
+  <testcase name="unknownSpeakerAndBlankTextAreRejected" classname="ru.neuroscribe.TranscriptEditsTest" time="0.001"/>
+  <testcase name="editingKeepsIntervalsAndOtherTurns" classname="ru.neuroscribe.TranscriptEditsTest" time="0.0"/>
+  <testcase name="longInputHasExplicitSampleAndByteBounds" classname="ru.neuroscribe.TranscriptEditsTest" time="0.0"/>
+  <testcase name="restoreUsesOriginalAndNeverOtherTurn" classname="ru.neuroscribe.TranscriptEditsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

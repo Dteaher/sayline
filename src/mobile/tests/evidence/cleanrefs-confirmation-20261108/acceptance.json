@@ -1,0 +1,9 @@
+{
+  "decision": "ACCEPT limited engineering change; independent accuracy gain NOT PROVEN",
+  "development": "9 files; lower micro DER/JER, no file-level DER/JER regressions; miss/FA slightly increased",
+  "holdout": "3 newly frozen files, all baseline/candidate metrics identical; no retuning",
+  "russian": "12 fixed Android read-speech recordings: both 5/234 word errors; not diarization gold",
+  "review": "Independent read-only final review: no confirmed P1/P2; 7 cache/protocol tests PASS",
+  "phone": "NOT RUN for this build. User requested emulator only; no phone retry.",
+  "production_weights": "Unchanged; no second supplemental extractor, no source separation"
+}

@@ -1,0 +1,36 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{8a7f95b u0 ru.neuroscribe/.ProcessingService c:ru.neuroscribe}
+    intent={cmp=ru.neuroscribe/.ProcessingService}
+    packageName=ru.neuroscribe
+    processName=ru.neuroscribe
+    targetSdkVersion=36
+    baseDir=/data/app/~~sW8YvFhWPnfiW4RX9SuMgQ==/ru.neuroscribe-M7ZnvPWc_iLxxM5Kdwg8Yw==/base.apk
+    dataDir=/data/user/0/ru.neuroscribe
+    app=ProcessRecord{dc93676 13134:ru.neuroscribe/u0a150}
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=PROC_STATE_TOP
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_TOP
+    getFgsAllowWiu_new=PROC_STATE_TOP
+    getFgsAllowWiu_forStart=PROC_STATE_TOP
+    getFgsAllowWiu_forCapabilities=PROC_STATE_TOP
+    allowUiJobScheduling=true
+    recentCallingPackage=ru.neuroscribe
+    recentCallingUid=10150
+    mAllowStart_noBinding=PROC_STATE_TOP
+    mAllowStart_inBindService=DENIED
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_TOP
+    getFgsAllowStart_new=PROC_STATE_TOP
+    getFgsAllowStart=PROC_STATE_TOP
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: ru.neuroscribe; callingUid: 10150; uidState: TOP ; uidBFSL: [BFSL]; intent: Intent { cmp=ru.neuroscribe/.ProcessingService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    isForeground=true foregroundId=41 types=0x00002000 foregroundNoti=Notification(channel=local_processing shortcut=null contentView=null vibrate=null sound=null defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE|FOREGROUND_SERVICE color=0x00000000 actions=1 vis=PRIVATE)
+    createTime=-18s886ms startingBgTimeout=--
+    lastActivity=-18s884ms restartTime=-18s884ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+ startCommandResult=2

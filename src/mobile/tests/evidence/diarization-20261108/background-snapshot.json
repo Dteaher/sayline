@@ -1,0 +1,6 @@
+{
+  "scope": "Snapshot during current 20-minute load test; not a continuous trace",
+  "processing_service_foreground": true,
+  "screen_asleep": true,
+  "processing_partial_wake_lock": true
+}

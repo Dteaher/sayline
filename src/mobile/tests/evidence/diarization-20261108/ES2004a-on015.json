@@ -1,0 +1,68 @@
+{
+  "key": "ES2004a-on015",
+  "id": "ES2004a",
+  "split": "development",
+  "min_duration_on": 0.15,
+  "duration_seconds": 120.0,
+  "native_seconds": 20.71684760000062,
+  "all_turn_embedding_seconds": 1.3737211000006937,
+  "native_turns": [
+    [
+      20.466594696044922,
+      56.072845458984375,
+      2,
+      0.6369962096214294
+    ],
+    [
+      57.55784606933594,
+      81.80722045898438,
+      2,
+      0.7444572448730469
+    ],
+    [
+      82.7522201538086,
+      107.87909698486328,
+      2,
+      0.7335386276245117
+    ],
+    [
+      110.3597183227539,
+      119.97846984863281,
+      2,
+      0.7060565948486328
+    ]
+  ],
+  "native_score": {
+    "der": 0.08663499745464562,
+    "jer": 0.5196421485885592,
+    "miss_seconds": 5.6565298461914075,
+    "false_alarm_seconds": 2.7877833557129,
+    "confusion_seconds": 0.0,
+    "reference_speaker_seconds": 97.46999999999998,
+    "reference_speakers": 2,
+    "hypothesis_speakers": 1,
+    "count_signed_error": -1,
+    "count_absolute_error": 1,
+    "overlap_reference_speaker_seconds": 3.9399999999999977,
+    "overlap_miss_seconds": 1.9699999999999989,
+    "overlap_miss_rate": 0.5,
+    "collar_seconds": 0.0,
+    "skip_overlap": false,
+    "mapping": {
+      "2": "FEE013"
+    },
+    "short_0.5": {
+      "total": 2,
+      "detected": 0,
+      "correct_speaker": 0,
+      "definition": ">=50% of each reference interval; full intervals, independent of collar"
+    },
+    "short_1.0": {
+      "total": 3,
+      "detected": 1,
+      "correct_speaker": 0,
+      "definition": ">=50% of each reference interval; full intervals, independent of collar"
+    }
+  },
+  "hidden_stages": "NOT EXPOSED: raw frame segmentation and native embedding retention cannot be counted through this API"
+}

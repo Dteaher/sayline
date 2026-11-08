@@ -1,0 +1,20 @@
+{
+  "version": "0.6.0",
+  "unit_tests": 93,
+  "ui_tests": 7,
+  "unit_result": "PASS",
+  "ui_result": "PASS",
+  "lint_errors": 0,
+  "lint_warnings": 12,
+  "visual_review": "Android API35 emulator; light and dark; 320/430dp; 200% font; long-dialogue fixtures",
+  "normal_text_contrast": {
+    "light-text": 16.49,
+    "light-secondary": 5.94,
+    "dark-text": 16.53,
+    "dark-secondary": 9.42,
+    "primary-action": 5.96
+  },
+  "speech_models": "unchanged; no speech experiments repeated",
+  "apk": "dist/NeuroScribe-0.6.0.apk",
+  "sha256": "b0399438e0121ee99706a0af3a041827fac3b3a89f0ec0173ebed06cc2a91d35"
+}

@@ -1,0 +1,8 @@
+{
+  "audio_seconds": 1200,
+  "elapsed_ms": 306478,
+  "status": "Готово",
+  "replicas": 1,
+  "last_end": 1199.9785,
+  "kind": "Android x86_64, repeated TTS load test, background + screen off"
+}

@@ -1,0 +1,23 @@
+{
+  "locked_at_utc": "2026-11-08T03:38:55.107851+00:00",
+  "recordings": [
+    "ES2015a",
+    "IS1006a",
+    "TS3009a"
+  ],
+  "native_profile_similarity": 0.55,
+  "margin": 0.1,
+  "clean_assignment_purity": 0.7,
+  "clean_assignment_margin": 0.3,
+  "core_seconds": 5,
+  "core_references": 2,
+  "fragment_references": 2,
+  "overlap_veto": 0.2,
+  "recover_native_references": false,
+  "split_native_conflicts": false,
+  "retuning_after_validation": false,
+  "source_sha256": {
+    "app/src/main/java/ru/neuroscribe/core/NativeVoiceProfiles.kt": "0ad805bbc554c2c55c07c8e6d6c16e3b8e72eddc49ed09b78eb66e8c1b7d3946",
+    "app/src/main/java/ru/neuroscribe/core/NativeDiarizationTrace.kt": "1fd3779cf9a6de43ddca7e829152c395f9d4e95f6fb4ee972a4ccffe24259772"
+  }
+}

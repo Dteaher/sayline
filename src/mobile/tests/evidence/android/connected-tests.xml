@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="16" failures="0" errors="0" skipped="0" time="30.911" timestamp="2026-11-07T17:54:47" hostname="localhost">
+  <testsuite name="ru.neuroscribe.AudioDecoderConnectedTest" tests="1" failures="0" errors="0" skipped="0" time="0.285" timestamp="2026-11-07T17:54:47" hostname="localhost">
+    <properties>
+      <property name="device" value="NeuroScribe_API35(AVD) - 15" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="localAacM4aDecodesToFinite16kMono" classname="ru.neuroscribe.AudioDecoderConnectedTest" time="0.285" />
+  </testsuite>
+  <testsuite name="ru.neuroscribe.DesignScreensTest" tests="4" failures="0" errors="0" skipped="0" time="7.704" timestamp="2026-11-07T17:54:47" hostname="localhost">
+    <properties>
+      <property name="device" value="NeuroScribe_API35(AVD) - 15" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="transcriptShowsRepliesAndFactualSummary" classname="ru.neuroscribe.DesignScreensTest" time="3.057" />
+    <testcase name="recordingHasPauseStopAndDiscardActions" classname="ru.neuroscribe.DesignScreensTest" time="1.541" />
+    <testcase name="processingUsesRealPhaseOrderAndCanCancel" classname="ru.neuroscribe.DesignScreensTest" time="1.632" />
+    <testcase name="homeShowsPrimaryActionsAndRecordButtonWorks" classname="ru.neuroscribe.DesignScreensTest" time="1.474" />
+  </testsuite>
+  <testsuite name="ru.neuroscribe.MandatoryFlowTest" tests="3" failures="0" errors="0" skipped="0" time="10.294" timestamp="2026-11-07T17:54:47" hostname="localhost">
+    <properties>
+      <property name="device" value="NeuroScribe_API35(AVD) - 15" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="overlapWithOneClusterDoesNotCrashNativeDiarization" classname="ru.neuroscribe.MandatoryFlowTest" time="1.418" />
+    <testcase name="humanSpeechImportProcessingPersistenceAndJsonExport" classname="ru.neuroscribe.MandatoryFlowTest" time="8.814" />
+    <testcase name="corruptImportShowsErrorAndDoesNotCreateTranscript" classname="ru.neuroscribe.MandatoryFlowTest" time="0.062" />
+  </testsuite>
+  <testsuite name="ru.neuroscribe.OfflinePipelineTest" tests="6" failures="0" errors="0" skipped="0" time="11.228" timestamp="2026-11-07T17:54:47" hostname="localhost">
+    <properties>
+      <property name="device" value="NeuroScribe_API35(AVD) - 15" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="silenceDoesNotCreateInventedSpeech" classname="ru.neuroscribe.OfflinePipelineTest" time="0.191" />
+    <testcase name="interruptedAtomicWriteRecoversPreviousTranscript" classname="ru.neuroscribe.OfflinePipelineTest" time="0.001" />
+    <testcase name="applicationHasNoInternetPermissionAndLaunches" classname="ru.neuroscribe.OfflinePipelineTest" time="0.002" />
+    <testcase name="twoSyntheticVoicesKeepIdentityWhenFirstVoiceReturns" classname="ru.neuroscribe.OfflinePipelineTest" time="8.161" />
+    <testcase name="transcriptPersistsAcrossStoreInstances" classname="ru.neuroscribe.OfflinePipelineTest" time="0.002" />
+    <testcase name="syntheticRussianSpeechIsDecodedAndRecognizedLocally" classname="ru.neuroscribe.OfflinePipelineTest" time="2.871" />
+  </testsuite>
+  <testsuite name="ru.neuroscribe.RecordingStoreDesignTest" tests="2" failures="0" errors="0" skipped="0" time="0.03" timestamp="2026-11-07T17:54:47" hostname="localhost">
+    <properties>
+      <property name="device" value="NeuroScribe_API35(AVD) - 15" />
+      <property name="flavor" value="" />
+      <property name="project" value=":app" />
+    </properties>
+    <testcase name="previousAppVersionRecordLoadsWithoutWaveform" classname="ru.neuroscribe.RecordingStoreDesignTest" time="0.002" />
+    <testcase name="waveformBackfillAndRenamingPreserveBothChanges" classname="ru.neuroscribe.RecordingStoreDesignTest" time="0.028" />
+  </testsuite>
+</testsuites>

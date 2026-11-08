@@ -1,0 +1,12 @@
+NeuroScribe native evidence extension
+
+This APK uses modified sherpa-onnx v1.13.8 JNI binaries (Apache License2.0). The changes export intermediate window embeddings and local voice activity already computed by the original inference. Model weights and ONNX Runtime bytes are unchanged.
+
+Original source: https://github.com/k2-fsa/sherpa-onnx/tree/v1.13.8
+Source ZIP SHA256: b63b7613812346f2d1396a3a7f94accd47539e3dadc3ea385ba6474c70ab9897
+Modification source: native/evidence-jni.cc and scripts/prepare-native-evidence.py in the supplied source archive.
+
+Derived AAR SHA256: 6ffc032b8ee1782df3a1c33e7423857614aa9e0beda7f963390a8cf89e799ad3
+JNI SHA256: {"arm64-v8a": "9852db2b77b2adad7775ab8920ad3391fb2740dfb698a70d91d6a340712b2703", "x86_64": "20dacf8fc05ecf061a08c6ef5dd2d119fec45e8aba1b7580c2b81bcbbb521b28"}
+
+Original sherpa-onnx copyright/license notices are included alongside this notice. Native modifications: NeuroScribe project. Android builds support arm64-v8a and x86_64; TTS is not built because this application does not synthesize speech.

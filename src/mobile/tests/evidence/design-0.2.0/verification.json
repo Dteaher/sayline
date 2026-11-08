@@ -1,0 +1,99 @@
+{
+  "apk": "NeuroScribe-debug.apk",
+  "bytes": 179876053,
+  "sha256": "6d323c21290021c2af5562342e8bcf66bf8d101eae28f2a0cbd9c4eea8e703c8",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "model_files": {
+    "decoder.onnx": {
+      "bytes": 2093080,
+      "sha256": "dcbe1ffa0211e77ca6d3a80164df13fbda3ec00e47d12b9f449f89572df12136"
+    },
+    "encoder.int8.onnx": {
+      "bytes": 70876638,
+      "sha256": "eb6c12fbad810d5bc3e427802e604604c69b5943a91feebc43424dd09d9ec407"
+    },
+    "joiner.int8.onnx": {
+      "bytes": 259417,
+      "sha256": "93f2e1d12b78d53e7802f1606488c14bb3d764b15fadf5ef6c022f6ba1fa40f7"
+    },
+    "README.md": {
+      "bytes": 105,
+      "sha256": "f9ae2f5bfaa3ee63072ab71bc1319dea448e10c13e810b132f3eacf7521b47c8"
+    },
+    "segmentation.onnx": {
+      "bytes": 5992913,
+      "sha256": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079"
+    },
+    "speaker.onnx": {
+      "bytes": 26534365,
+      "sha256": "5ef208a9da1453335308a6b6f4e6dfbd7e183a38b604de0a57664f45d257fe94"
+    },
+    "tokens.txt": {
+      "bytes": 6388,
+      "sha256": "93bbbc0bae6b78c0bbb743d4aa9fded3bb5ff3aac5f0200e3a769a5a05e0fdf6"
+    }
+  },
+  "permissions": [
+    "package: ru.neuroscribe",
+    "uses-permission: name='android.permission.RECORD_AUDIO'",
+    "permission: ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "uses-permission: name='ru.neuroscribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'"
+  ],
+  "test_fixture_data_absent": true,
+  "signature_verified": true,
+  "zip_aligned_16k": true,
+  "native_load_alignments": {
+    "lib/arm64-v8a/libandroidx.graphics.path.so": 16384,
+    "lib/arm64-v8a/libonnxruntime.so": 16384,
+    "lib/arm64-v8a/libsherpa-onnx-c-api.so": 16384,
+    "lib/arm64-v8a/libsherpa-onnx-cxx-api.so": 16384,
+    "lib/arm64-v8a/libsherpa-onnx-jni.so": 16384,
+    "lib/x86_64/libandroidx.graphics.path.so": 16384,
+    "lib/x86_64/libonnxruntime.so": 16384,
+    "lib/x86_64/libsherpa-onnx-c-api.so": 16384,
+    "lib/x86_64/libsherpa-onnx-cxx-api.so": 16384,
+    "lib/x86_64/libsherpa-onnx-jni.so": 16384
+  },
+  "native_16k_compatible": true,
+  "delivered_apk": "NeuroScribe-design-0.2.0.apk",
+  "version": "0.2.0",
+  "unit_suites": [
+    {
+      "name": "ru.neuroscribe.AudioDecoderTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "ru.neuroscribe.Pcm16kBufferTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "ru.neuroscribe.TranscriptJsonTest",
+      "tests": "7",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "ru.neuroscribe.TranscriptTest",
+      "tests": "8",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "ru.neuroscribe.WaveformTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0"
+    }
+  ],
+  "unit_tests": 33,
+  "android_ui_tests": "NOT RUN — user chose to finish without phone verification",
+  "visual_review": "NOT RUN — phone disconnected; not substituted with mock screenshots",
+  "diarization_crash": "Not fixed or verified on Android in this design delivery"
+}

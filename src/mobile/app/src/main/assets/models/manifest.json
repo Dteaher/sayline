@@ -1,0 +1,26 @@
+{
+  "gigaam-v3.int8.onnx": {
+    "bytes": 224893661,
+    "sha256": "d5fea8df94263c285e54b21e5774b707c707192d3bdbeffd7b1eb07fb6743b35"
+  },
+  "segmentation.onnx": {
+    "bytes": 5992913,
+    "sha256": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079"
+  },
+  "speaker.onnx": {
+    "bytes": 26534365,
+    "sha256": "5ef208a9da1453335308a6b6f4e6dfbd7e183a38b604de0a57664f45d257fe94"
+  },
+  "tokens.txt": {
+    "bytes": 2007,
+    "sha256": "142de7570b3de5b3035ce111a89c228e80e6085273731d944093ddf24fa539cd"
+  },
+  "gtcrn.onnx": {
+    "bytes": 535638,
+    "sha256": "e77603ac0c23dac3227dd2d7135b3a585cbee2679048aecfa886657d3ae1b534"
+  },
+  "speaker-refinement.onnx": {
+    "bytes": 26485263,
+    "sha256": "c59158379255ad66e161679cca6af8d52d51e389e3224ab7d7a7baae295c2db5"
+  }
+}

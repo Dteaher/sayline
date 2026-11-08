@@ -1,0 +1,14 @@
+{
+  "kind": "Android x86_64, two-second balanced TTS mixture; research only",
+  "load_ms": 607,
+  "inference_ms": 1818,
+  "output_sisdr": [
+    3.3116704335293172,
+    2.7318503253361808
+  ],
+  "input_sisdr": [
+    -0.2840795608911792,
+    -0.2447785482310075
+  ],
+  "post_inference_pss_kib": 361173
+}

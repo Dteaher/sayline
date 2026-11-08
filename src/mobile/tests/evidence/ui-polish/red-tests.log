@@ -1,0 +1,140 @@
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+ru.neuroscribe.TranscriptPolishTest:
+INSTRUMENTATION_STATUS: test=jsonExportIsVisibleWithoutOpeningAMenu
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Assert failed: The component with ContentDescription = 'Сохранить JSON' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.jsonExportIsVisibleWithoutOpeningAMenu(TranscriptPolishTest.kt:32)
+
+INSTRUMENTATION_STATUS: stream=
+Error in jsonExportIsVisibleWithoutOpeningAMenu(ru.neuroscribe.TranscriptPolishTest):
+java.lang.AssertionError: Assert failed: The component with ContentDescription = 'Сохранить JSON' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.jsonExportIsVisibleWithoutOpeningAMenu(TranscriptPolishTest.kt:32)
+
+INSTRUMENTATION_STATUS: test=jsonExportIsVisibleWithoutOpeningAMenu
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=participantTabCommunicatesItsContentAndSelection
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Failed to inject touch input.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + InputText + EditableText contains 'Участники' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:402)
+	at androidx.compose.ui.test.AndroidActions.performClickImpl(Actions.android.kt:23)
+	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:60)
+	at ru.neuroscribe.TranscriptPolishTest.participantTabCommunicatesItsContentAndSelection(TranscriptPolishTest.kt:38)
+
+INSTRUMENTATION_STATUS: stream=
+Error in participantTabCommunicatesItsContentAndSelection(ru.neuroscribe.TranscriptPolishTest):
+java.lang.AssertionError: Failed to inject touch input.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + InputText + EditableText contains 'Участники' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:402)
+	at androidx.compose.ui.test.AndroidActions.performClickImpl(Actions.android.kt:23)
+	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:60)
+	at ru.neuroscribe.TranscriptPolishTest.participantTabCommunicatesItsContentAndSelection(TranscriptPolishTest.kt:38)
+
+INSTRUMENTATION_STATUS: test=participantTabCommunicatesItsContentAndSelection
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=failedUndecodableAudioDoesNotOfferBrokenPlayback
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Assert failed: The component with Text + InputText + EditableText contains 'Не удалось обработать запись' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.failedUndecodableAudioDoesNotOfferBrokenPlayback(TranscriptPolishTest.kt:54)
+
+INSTRUMENTATION_STATUS: stream=
+Error in failedUndecodableAudioDoesNotOfferBrokenPlayback(ru.neuroscribe.TranscriptPolishTest):
+java.lang.AssertionError: Assert failed: The component with Text + InputText + EditableText contains 'Не удалось обработать запись' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.failedUndecodableAudioDoesNotOfferBrokenPlayback(TranscriptPolishTest.kt:54)
+
+INSTRUMENTATION_STATUS: test=failedUndecodableAudioDoesNotOfferBrokenPlayback
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=noSpeechHasAnExplicitCompletedStateAndRetry
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=ru.neuroscribe.TranscriptPolishTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=4
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError: Assert failed: The component with Text + InputText + EditableText contains 'Речь не обнаружена' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.noSpeechHasAnExplicitCompletedStateAndRetry(TranscriptPolishTest.kt:47)
+
+INSTRUMENTATION_STATUS: stream=
+Error in noSpeechHasAnExplicitCompletedStateAndRetry(ru.neuroscribe.TranscriptPolishTest):
+java.lang.AssertionError: Assert failed: The component with Text + InputText + EditableText contains 'Речь не обнаружена' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.noSpeechHasAnExplicitCompletedStateAndRetry(TranscriptPolishTest.kt:47)
+
+INSTRUMENTATION_STATUS: test=noSpeechHasAnExplicitCompletedStateAndRetry
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 16.28
+There were 4 failures:
+1) jsonExportIsVisibleWithoutOpeningAMenu(ru.neuroscribe.TranscriptPolishTest)
+java.lang.AssertionError: Assert failed: The component with ContentDescription = 'Сохранить JSON' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.jsonExportIsVisibleWithoutOpeningAMenu(TranscriptPolishTest.kt:32)
+2) participantTabCommunicatesItsContentAndSelection(ru.neuroscribe.TranscriptPolishTest)
+java.lang.AssertionError: Failed to inject touch input.
+Reason: Expected exactly '1' node but could not find any node that satisfies: (Text + InputText + EditableText contains 'Участники' (ignoreCase: false))
+
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow(SemanticsNodeInteraction.kt:178)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchOneOrThrow$default(SemanticsNodeInteraction.kt:150)
+	at androidx.compose.ui.test.SemanticsNodeInteraction.fetchSemanticsNode(SemanticsNodeInteraction.kt:84)
+	at androidx.compose.ui.test.ActionsKt.performTouchInput(Actions.kt:402)
+	at androidx.compose.ui.test.AndroidActions.performClickImpl(Actions.android.kt:23)
+	at androidx.compose.ui.test.ActionsKt.performClick(Actions.kt:60)
+	at ru.neuroscribe.TranscriptPolishTest.participantTabCommunicatesItsContentAndSelection(TranscriptPolishTest.kt:38)
+3) failedUndecodableAudioDoesNotOfferBrokenPlayback(ru.neuroscribe.TranscriptPolishTest)
+java.lang.AssertionError: Assert failed: The component with Text + InputText + EditableText contains 'Не удалось обработать запись' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.failedUndecodableAudioDoesNotOfferBrokenPlayback(TranscriptPolishTest.kt:54)
+4) noSpeechHasAnExplicitCompletedStateAndRetry(ru.neuroscribe.TranscriptPolishTest)
+java.lang.AssertionError: Assert failed: The component with Text + InputText + EditableText contains 'Речь не обнаружена' (ignoreCase: false) is not displayed!
+	at androidx.compose.ui.test.AssertionsKt.assertIsDisplayed(Assertions.kt:34)
+	at ru.neuroscribe.TranscriptPolishTest.noSpeechHasAnExplicitCompletedStateAndRetry(TranscriptPolishTest.kt:47)
+
+FAILURES!!!
+Tests run: 4,  Failures: 4
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,5 @@
+{
+  "recorded_at_utc": "2026-11-08T04:00:50.572573+00:00",
+  "rule": "Accept only if aggregate DER and JER do not increase, no per-file DER increase, count MAE does not increase, no short-speaker regression, four fixed Russian word/count checks pass",
+  "limits": "Descriptive small-sample gate, not a broad accuracy guarantee. Rule written before results were read."
+}

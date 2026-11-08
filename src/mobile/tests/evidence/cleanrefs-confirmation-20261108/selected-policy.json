@@ -1,0 +1,30 @@
+{
+  "locked_before_holdout": true,
+  "locked_at_utc": "2026-11-08T00:42:17.292159+00:00",
+  "native_threshold": 0.5,
+  "grouping_gap": 1.2,
+  "variant": "anchored",
+  "use_clean_references": true,
+  "preserve_reference_anchors": true,
+  "refinement_threshold": 0.6,
+  "assignment_distance": 0.4,
+  "assignment_margin": 0.1,
+  "supplemental_second_model": false,
+  "reason": "Preserve reliable baseline partition; add missing clean evidence only. On9 development recordings, no file-level DER/JER regression; first failed validation now development.",
+  "rejected": [
+    "native .7 + full clean reclustering: severe IS1009a regression",
+    "gap .4: worse Russian words",
+    "ResNet/ERes fusion: no advantage over anchored single model"
+  ],
+  "new_unseen_holdout": [
+    "IS1008a",
+    "ES2011a",
+    "TS3004a"
+  ],
+  "source_sha256": {
+    "app/src/main/java/ru/neuroscribe/core/AnchoredRefinement.kt": "c3fbd00b8355fb0d89f2b0fbb368f1c46ea7d95e22c2a29579726fa8b226cf5a",
+    "app/src/main/java/ru/neuroscribe/core/RefinementSampling.kt": "e2069b9bbeada51d4e09431936a278a00039bdc4733471d9c1687dc562a12039",
+    "app/src/main/java/ru/neuroscribe/core/CleanReferences.kt": "b81b080e005e7ac3c6e23de0a4f95594270587a5465d611bfa608cc922cbf355",
+    "app/src/main/java/ru/neuroscribe/ml/SpeechEngine.kt": "17da4443e25186ad5151fab74f3b77aa3124600dd23adce7303c18dbfbf7b5ce"
+  }
+}
